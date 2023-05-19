@@ -1,0 +1,1074 @@
+2023-04-25 16:06:16.502000+08:00 [notice] <0.227.0> Logging: configured log handlers are now ACTIVE
+2023-04-25 16:06:20.557000+08:00 [info] <0.227.0> ra: starting system quorum_queues
+2023-04-25 16:06:20.557000+08:00 [info] <0.227.0> starting Ra system: quorum_queues in directory: c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/quorum/rabbit@ecs-1d22
+2023-04-25 16:06:20.557000+08:00 [info] <0.295.0> ra system 'quorum_queues' running pre init for 0 registered servers
+2023-04-25 16:06:20.557000+08:00 [info] <0.298.0> ra: meta data store initialised for system quorum_queues. 0 record(s) recovered
+2023-04-25 16:06:20.557000+08:00 [notice] <0.309.0> WAL: ra_log_wal init, open tbls: ra_log_open_mem_tables, closed tbls: ra_log_closed_mem_tables
+2023-04-25 16:06:20.593000+08:00 [info] <0.227.0> ra: starting system coordination
+2023-04-25 16:06:20.593000+08:00 [info] <0.227.0> starting Ra system: coordination in directory: c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/coordination/rabbit@ecs-1d22
+2023-04-25 16:06:20.593000+08:00 [info] <0.347.0> ra system 'coordination' running pre init for 0 registered servers
+2023-04-25 16:06:20.593000+08:00 [info] <0.348.0> ra: meta data store initialised for system coordination. 0 record(s) recovered
+2023-04-25 16:06:20.593000+08:00 [notice] <0.353.0> WAL: ra_coordination_log_wal init, open tbls: ra_coordination_log_open_mem_tables, closed tbls: ra_coordination_log_closed_mem_tables
+2023-04-25 16:06:20.628000+08:00 [info] <0.227.0> 
+2023-04-25 16:06:20.628000+08:00 [info] <0.227.0>  Starting RabbitMQ 3.11.13 on Erlang 25.3 [jit]
+2023-04-25 16:06:20.628000+08:00 [info] <0.227.0>  Copyright (c) 2007-2023 VMware, Inc. or its affiliates.
+2023-04-25 16:06:20.628000+08:00 [info] <0.227.0>  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+2023-04-25 16:06:20.628000+08:00 [info] <0.227.0> 
+2023-04-25 16:06:20.628000+08:00 [info] <0.227.0>  node           : rabbit@ecs-1d22
+2023-04-25 16:06:20.628000+08:00 [info] <0.227.0>  home dir       : c:/Windows/system32/config/systemprofile
+2023-04-25 16:06:20.628000+08:00 [info] <0.227.0>  config file(s) : c:/Users/Administrator/AppData/Roaming/RabbitMQ/advanced.config
+2023-04-25 16:06:20.628000+08:00 [info] <0.227.0>  cookie hash    : +Swf7XDUkhwNYvEKwxxS6Q==
+2023-04-25 16:06:20.628000+08:00 [info] <0.227.0>  log(s)         : <stdout>
+2023-04-25 16:06:20.628000+08:00 [info] <0.227.0>                 : c:/Users/Administrator/AppData/Roaming/RabbitMQ/log/rabbit@ecs-1d22.log
+2023-04-25 16:06:20.628000+08:00 [info] <0.227.0>                 : c:/Users/Administrator/AppData/Roaming/RabbitMQ/log/rabbit@ecs-1d22_upgrade.log
+2023-04-25 16:06:20.628000+08:00 [info] <0.227.0>  database dir   : c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia
+2023-04-25 16:06:21.145000+08:00 [info] <0.227.0> Running boot step pre_boot defined by app rabbit
+2023-04-25 16:06:21.145000+08:00 [info] <0.227.0> Running boot step rabbit_global_counters defined by app rabbit
+2023-04-25 16:06:21.145000+08:00 [info] <0.227.0> Running boot step rabbit_osiris_metrics defined by app rabbit
+2023-04-25 16:06:21.145000+08:00 [info] <0.227.0> Running boot step rabbit_core_metrics defined by app rabbit
+2023-04-25 16:06:21.145000+08:00 [info] <0.227.0> Running boot step rabbit_alarm defined by app rabbit
+2023-04-25 16:06:21.145000+08:00 [info] <0.368.0> Memory high watermark set to 13106 MiB (13743523430 bytes) of 32767 MiB (34358808576 bytes) total
+2023-04-25 16:06:21.145000+08:00 [info] <0.370.0> Enabling free disk space monitoring (disk free space: 12943564800, total memory: 34358808576)
+2023-04-25 16:06:21.145000+08:00 [info] <0.370.0> Disk free limit set to 50MB
+2023-04-25 16:06:21.145000+08:00 [info] <0.227.0> Running boot step code_server_cache defined by app rabbit
+2023-04-25 16:06:21.145000+08:00 [info] <0.227.0> Running boot step file_handle_cache defined by app rabbit
+2023-04-25 16:06:21.161000+08:00 [info] <0.373.0> Limiting to approx 65439 file handles (58893 sockets)
+2023-04-25 16:06:21.161000+08:00 [info] <0.374.0> FHC read buffering: OFF
+2023-04-25 16:06:21.161000+08:00 [info] <0.374.0> FHC write buffering: ON
+2023-04-25 16:06:21.161000+08:00 [info] <0.227.0> Running boot step worker_pool defined by app rabbit
+2023-04-25 16:06:21.161000+08:00 [info] <0.355.0> Will use 16 processes for default worker pool
+2023-04-25 16:06:21.161000+08:00 [info] <0.355.0> Starting worker pool 'worker_pool' with 16 processes in it
+2023-04-25 16:06:21.162000+08:00 [info] <0.227.0> Running boot step database defined by app rabbit
+2023-04-25 16:06:21.164000+08:00 [info] <0.227.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2023-04-25 16:06:21.166000+08:00 [info] <0.227.0> Successfully synced tables from a peer
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Successfully synced tables from a peer
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step tracking_metadata_store defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.399.0> Setting up a table for connection tracking on this node: tracked_connection
+2023-04-25 16:06:21.181000+08:00 [info] <0.399.0> Setting up a table for per-vhost connection counting on this node: tracked_connection_per_vhost
+2023-04-25 16:06:21.181000+08:00 [info] <0.399.0> Setting up a table for per-user connection counting on this node: tracked_connection_per_user
+2023-04-25 16:06:21.181000+08:00 [info] <0.399.0> Setting up a table for channel tracking on this node: tracked_channel
+2023-04-25 16:06:21.181000+08:00 [info] <0.399.0> Setting up a table for channel tracking on this node: tracked_channel_per_user
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step networking_metadata_store defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step database_sync defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step feature_flags defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step codec_correctness_check defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step external_infrastructure defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_event defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_delayed_message defined by app rabbitmq_delayed_message_exchange
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Successfully synced tables from a peer
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_registry defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_auth_mechanism_amqplain defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_auth_mechanism_cr_demo defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_auth_mechanism_plain defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_direct defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_fanout defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_headers defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_topic defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_mode_all defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_mode_exactly defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_mode_nodes defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_priority_queue defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Priority queues enabled, real BQ is rabbit_variable_queue
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_client_local defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_min_masters defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_random defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step kernel_ready defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_sysmon_minder defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_epmd_monitor defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.411.0> epmd monitor knows us, inter-node communication (distribution) port: 25672
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step guid_generator defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_node_monitor defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.415.0> Starting rabbit_node_monitor
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step delegate_sup defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_memory_monitor defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step rabbit_fifo_dlx_sup defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step core_initialized defined by app rabbit
+2023-04-25 16:06:21.181000+08:00 [info] <0.227.0> Running boot step upgrade_queues defined by app rabbit
+2023-04-25 16:06:21.199000+08:00 [info] <0.227.0> Running boot step channel_tracking defined by app rabbit
+2023-04-25 16:06:21.199000+08:00 [info] <0.227.0> Running boot step rabbit_channel_tracking_handler defined by app rabbit
+2023-04-25 16:06:21.199000+08:00 [info] <0.227.0> Running boot step connection_tracking defined by app rabbit
+2023-04-25 16:06:21.199000+08:00 [info] <0.227.0> Running boot step rabbit_connection_tracking_handler defined by app rabbit
+2023-04-25 16:06:21.199000+08:00 [info] <0.227.0> Running boot step rabbit_definitions_hashing defined by app rabbit
+2023-04-25 16:06:21.199000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_parameters defined by app rabbit
+2023-04-25 16:06:21.199000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_misc defined by app rabbit
+2023-04-25 16:06:21.199000+08:00 [info] <0.227.0> Running boot step rabbit_policies defined by app rabbit
+2023-04-25 16:06:21.199000+08:00 [info] <0.227.0> Running boot step rabbit_policy defined by app rabbit
+2023-04-25 16:06:21.200000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_validator defined by app rabbit
+2023-04-25 16:06:21.200000+08:00 [info] <0.227.0> Running boot step rabbit_quorum_memory_manager defined by app rabbit
+2023-04-25 16:06:21.200000+08:00 [info] <0.227.0> Running boot step rabbit_stream_coordinator defined by app rabbit
+2023-04-25 16:06:21.200000+08:00 [info] <0.227.0> Running boot step rabbit_vhost_limit defined by app rabbit
+2023-04-25 16:06:21.200000+08:00 [info] <0.227.0> Running boot step rabbit_delayed_message_supervisor defined by app rabbitmq_delayed_message_exchange
+2023-04-25 16:06:21.200000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_delayed_message defined by app rabbitmq_delayed_message_exchange
+2023-04-25 16:06:21.200000+08:00 [info] <0.227.0> Running boot step rabbit_mgmt_reset_handler defined by app rabbitmq_management
+2023-04-25 16:06:21.200000+08:00 [info] <0.227.0> Running boot step rabbit_mgmt_db_handler defined by app rabbitmq_management_agent
+2023-04-25 16:06:21.200000+08:00 [info] <0.227.0> Management plugin: using rates mode 'basic'
+2023-04-25 16:06:21.200000+08:00 [info] <0.227.0> Running boot step recovery defined by app rabbit
+2023-04-25 16:06:21.202000+08:00 [info] <0.451.0> Making sure data directory 'c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/msg_stores/vhosts/AFUGTMSOWE2T0GDXL2ACC26UI' for vhost 'ManYiChong' exists
+2023-04-25 16:06:21.203000+08:00 [info] <0.451.0> Starting message stores for vhost 'ManYiChong'
+2023-04-25 16:06:21.203000+08:00 [info] <0.456.0> Message store "AFUGTMSOWE2T0GDXL2ACC26UI/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2023-04-25 16:06:21.203000+08:00 [info] <0.451.0> Started message store of type transient for vhost 'ManYiChong'
+2023-04-25 16:06:21.203000+08:00 [info] <0.460.0> Message store "AFUGTMSOWE2T0GDXL2ACC26UI/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2023-04-25 16:06:21.203000+08:00 [info] <0.451.0> Started message store of type persistent for vhost 'ManYiChong'
+2023-04-25 16:06:21.203000+08:00 [info] <0.451.0> Recovering 2 queues of type rabbit_classic_queue took 14ms
+2023-04-25 16:06:21.203000+08:00 [info] <0.451.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
+2023-04-25 16:06:21.203000+08:00 [info] <0.451.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2023-04-25 16:06:21.218000+08:00 [info] <0.497.0> Making sure data directory 'c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+2023-04-25 16:06:21.218000+08:00 [info] <0.497.0> Starting message stores for vhost '/'
+2023-04-25 16:06:21.218000+08:00 [info] <0.501.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2023-04-25 16:06:21.218000+08:00 [info] <0.497.0> Started message store of type transient for vhost '/'
+2023-04-25 16:06:21.218000+08:00 [info] <0.505.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2023-04-25 16:06:21.218000+08:00 [info] <0.497.0> Started message store of type persistent for vhost '/'
+2023-04-25 16:06:21.218000+08:00 [info] <0.497.0> Recovering 0 queues of type rabbit_classic_queue took 8ms
+2023-04-25 16:06:21.218000+08:00 [info] <0.497.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
+2023-04-25 16:06:21.218000+08:00 [info] <0.497.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2023-04-25 16:06:21.218000+08:00 [info] <0.227.0> Running boot step empty_db_check defined by app rabbit
+2023-04-25 16:06:21.218000+08:00 [info] <0.227.0> Will not seed default virtual host and user: have definitions to load...
+2023-04-25 16:06:21.218000+08:00 [info] <0.227.0> Running boot step rabbit_observer_cli defined by app rabbit
+2023-04-25 16:06:21.218000+08:00 [info] <0.227.0> Running boot step rabbit_looking_glass defined by app rabbit
+2023-04-25 16:06:21.218000+08:00 [info] <0.227.0> Running boot step rabbit_core_metrics_gc defined by app rabbit
+2023-04-25 16:06:21.218000+08:00 [info] <0.227.0> Running boot step background_gc defined by app rabbit
+2023-04-25 16:06:21.218000+08:00 [info] <0.227.0> Running boot step routing_ready defined by app rabbit
+2023-04-25 16:06:21.218000+08:00 [info] <0.227.0> Running boot step pre_flight defined by app rabbit
+2023-04-25 16:06:21.218000+08:00 [info] <0.227.0> Running boot step notify_cluster defined by app rabbit
+2023-04-25 16:06:21.218000+08:00 [info] <0.227.0> Running boot step networking defined by app rabbit
+2023-04-25 16:06:21.218000+08:00 [info] <0.227.0> Running boot step definition_import_worker_pool defined by app rabbit
+2023-04-25 16:06:21.218000+08:00 [info] <0.355.0> Starting worker pool 'definition_import_pool' with 16 processes in it
+2023-04-25 16:06:21.234000+08:00 [info] <0.227.0> Running boot step cluster_name defined by app rabbit
+2023-04-25 16:06:21.234000+08:00 [info] <0.227.0> Running boot step direct_client defined by app rabbit
+2023-04-25 16:06:21.234000+08:00 [info] <0.227.0> Running boot step rabbit_maintenance_mode_state defined by app rabbit
+2023-04-25 16:06:21.234000+08:00 [info] <0.227.0> Creating table rabbit_node_maintenance_states for maintenance mode status
+2023-04-25 16:06:21.234000+08:00 [info] <0.227.0> Running boot step rabbit_management_load_definitions defined by app rabbitmq_management
+2023-04-25 16:06:21.234000+08:00 [info] <0.554.0> Resetting node maintenance status
+2023-04-25 16:06:21.417000+08:00 [info] <0.613.0> Management plugin: HTTP (non-TLS) listener started on port 15672
+2023-04-25 16:06:21.417000+08:00 [info] <0.641.0> Statistics database started.
+2023-04-25 16:06:21.417000+08:00 [info] <0.640.0> Starting worker pool 'management_worker_pool' with 3 processes in it
+2023-04-25 16:06:21.417000+08:00 [info] <0.554.0> Ready to start client connection listeners
+2023-04-25 16:06:21.417000+08:00 [info] <0.669.0> started TCP listener on [::]:5672
+2023-04-25 16:06:21.417000+08:00 [info] <0.687.0> started TCP listener on 0.0.0.0:5672
+2023-04-25 16:06:21.651000+08:00 [info] <0.554.0> Server startup complete; 4 plugins started.
+2023-04-25 16:06:21.651000+08:00 [info] <0.554.0>  * rabbitmq_delayed_message_exchange
+2023-04-25 16:06:21.651000+08:00 [info] <0.554.0>  * rabbitmq_management
+2023-04-25 16:06:21.651000+08:00 [info] <0.554.0>  * rabbitmq_web_dispatch
+2023-04-25 16:06:21.651000+08:00 [info] <0.554.0>  * rabbitmq_management_agent
+2023-04-25 16:32:41.055000+08:00 [info] <0.753.0> accepting AMQP connection <0.753.0> ([::1]:54518 -> [::1]:5672)
+2023-04-25 16:32:41.085000+08:00 [info] <0.753.0> connection <0.753.0> ([::1]:54518 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-25 16:37:16.567000+08:00 [info] <0.798.0> accepting AMQP connection <0.798.0> ([::1]:55161 -> [::1]:5672)
+2023-04-25 16:37:16.645000+08:00 [info] <0.798.0> connection <0.798.0> ([::1]:55161 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-25 16:37:16.676000+08:00 [info] <0.798.0> closing AMQP connection <0.798.0> ([::1]:55161 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-25 16:37:16.676000+08:00 [info] <0.816.0> accepting AMQP connection <0.816.0> ([::1]:55162 -> [::1]:5672)
+2023-04-25 16:37:16.676000+08:00 [info] <0.816.0> connection <0.816.0> ([::1]:55162 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-25 16:37:16.692000+08:00 [info] <0.816.0> closing AMQP connection <0.816.0> ([::1]:55162 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-25 16:55:02.067000+08:00 [warning] <0.753.0> closing AMQP connection <0.753.0> ([::1]:54518 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest'):
+2023-04-25 16:55:02.067000+08:00 [warning] <0.753.0> client unexpectedly closed TCP connection
+2023-04-25 16:55:15.710000+08:00 [info] <0.1197.0> accepting AMQP connection <0.1197.0> ([::1]:57518 -> [::1]:5672)
+2023-04-25 16:55:15.725000+08:00 [info] <0.1197.0> connection <0.1197.0> ([::1]:57518 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-25 17:07:17.259000+08:00 [warning] <0.1197.0> closing AMQP connection <0.1197.0> ([::1]:57518 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest'):
+2023-04-25 17:07:17.259000+08:00 [warning] <0.1197.0> client unexpectedly closed TCP connection
+2023-04-25 17:11:39.407000+08:00 [info] <0.1358.0> accepting AMQP connection <0.1358.0> ([::1]:59534 -> [::1]:5672)
+2023-04-25 17:11:39.429000+08:00 [info] <0.1358.0> connection <0.1358.0> ([::1]:59534 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-25 17:21:46.032000+08:00 [info] <0.1446.0> accepting AMQP connection <0.1446.0> ([::1]:60831 -> [::1]:5672)
+2023-04-25 17:21:46.032000+08:00 [info] <0.1446.0> connection <0.1446.0> ([::1]:60831 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-25 17:21:46.048000+08:00 [info] <0.1446.0> closing AMQP connection <0.1446.0> ([::1]:60831 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-25 17:21:46.048000+08:00 [info] <0.1464.0> accepting AMQP connection <0.1464.0> ([::1]:60832 -> [::1]:5672)
+2023-04-25 17:21:46.048000+08:00 [info] <0.1464.0> connection <0.1464.0> ([::1]:60832 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-25 17:21:46.048000+08:00 [info] <0.1464.0> closing AMQP connection <0.1464.0> ([::1]:60832 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-25 18:42:56.273000+08:00 [info] <0.1875.0> accepting AMQP connection <0.1875.0> ([::1]:55126 -> [::1]:5672)
+2023-04-25 18:42:56.335000+08:00 [info] <0.1875.0> connection <0.1875.0> ([::1]:55126 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-25 18:42:56.382000+08:00 [info] <0.1875.0> closing AMQP connection <0.1875.0> ([::1]:55126 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-25 18:42:56.382000+08:00 [info] <0.1893.0> accepting AMQP connection <0.1893.0> ([::1]:55127 -> [::1]:5672)
+2023-04-25 18:42:56.382000+08:00 [info] <0.1893.0> connection <0.1893.0> ([::1]:55127 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-25 18:42:56.382000+08:00 [info] <0.1893.0> closing AMQP connection <0.1893.0> ([::1]:55127 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-25 19:13:01.505000+08:00 [info] <0.2024.0> accepting AMQP connection <0.2024.0> ([::1]:59015 -> [::1]:5672)
+2023-04-25 19:13:01.505000+08:00 [info] <0.2024.0> connection <0.2024.0> ([::1]:59015 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-25 19:13:01.505000+08:00 [info] <0.2024.0> closing AMQP connection <0.2024.0> ([::1]:59015 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-25 19:13:01.505000+08:00 [info] <0.2042.0> accepting AMQP connection <0.2042.0> ([::1]:59016 -> [::1]:5672)
+2023-04-25 19:13:01.505000+08:00 [info] <0.2042.0> connection <0.2042.0> ([::1]:59016 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-25 19:13:01.521000+08:00 [info] <0.2042.0> closing AMQP connection <0.2042.0> ([::1]:59016 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-25 20:26:21.784000+08:00 [info] <0.2333.0> accepting AMQP connection <0.2333.0> ([::1]:52842 -> [::1]:5672)
+2023-04-25 20:26:21.799000+08:00 [info] <0.2333.0> connection <0.2333.0> ([::1]:52842 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-25 20:26:21.799000+08:00 [info] <0.2333.0> closing AMQP connection <0.2333.0> ([::1]:52842 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-25 20:26:21.799000+08:00 [info] <0.2351.0> accepting AMQP connection <0.2351.0> ([::1]:52843 -> [::1]:5672)
+2023-04-25 20:26:21.799000+08:00 [info] <0.2351.0> connection <0.2351.0> ([::1]:52843 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-25 20:26:21.799000+08:00 [info] <0.2351.0> closing AMQP connection <0.2351.0> ([::1]:52843 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 08:16:26.481000+08:00 [info] <0.3934.0> accepting AMQP connection <0.3934.0> ([::1]:63407 -> [::1]:5672)
+2023-04-26 08:16:26.481000+08:00 [info] <0.3934.0> connection <0.3934.0> ([::1]:63407 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 08:16:26.481000+08:00 [info] <0.3934.0> closing AMQP connection <0.3934.0> ([::1]:63407 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 08:16:26.481000+08:00 [info] <0.3952.0> accepting AMQP connection <0.3952.0> ([::1]:63408 -> [::1]:5672)
+2023-04-26 08:16:26.481000+08:00 [info] <0.3952.0> connection <0.3952.0> ([::1]:63408 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 08:16:26.481000+08:00 [info] <0.3952.0> closing AMQP connection <0.3952.0> ([::1]:63408 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0> handle.exe output did not contain a line beginning with 'File', using powershell to determine used file descriptor count: ["Nthandle v5.0 - Handle viewer",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "Copyright (C) 1997-2022 Mark Russinovich",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "Sysinternals - www.sysinternals.com",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "Handle type summary:",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "ALPC Port       : 1",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "Desktop         : 1",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "Directory       : 2",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "EtwRegistration : 85",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "Event           : 112",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "Event           : 38",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "IoCompletion    : 5",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "IRTimer         : 6",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "Key             : 15",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "Mutant          : 1",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "Process         : 4",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "Section         : 1",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "Semaphore       : 6",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "Thread          : 13",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "TpWorkerFactory : 3",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "WaitCompletionPacket: 8",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "WindowStation   : 2",
+2023-04-26 08:34:59.063000+08:00 [warning] <0.561.0>                                                                                                                            "Total handles: 303"]
+2023-04-26 09:17:10.927000+08:00 [info] <0.4065.0> accepting AMQP connection <0.4065.0> ([::1]:56999 -> [::1]:5672)
+2023-04-26 09:17:10.927000+08:00 [info] <0.4065.0> connection <0.4065.0> ([::1]:56999 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 09:17:10.927000+08:00 [info] <0.4065.0> closing AMQP connection <0.4065.0> ([::1]:56999 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 09:17:10.927000+08:00 [info] <0.4083.0> accepting AMQP connection <0.4083.0> ([::1]:57000 -> [::1]:5672)
+2023-04-26 09:17:10.927000+08:00 [info] <0.4083.0> connection <0.4083.0> ([::1]:57000 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 09:17:10.927000+08:00 [info] <0.4083.0> closing AMQP connection <0.4083.0> ([::1]:57000 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 10:19:47.113000+08:00 [warning] <0.1358.0> closing AMQP connection <0.1358.0> ([::1]:59534 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest'):
+2023-04-26 10:19:47.113000+08:00 [warning] <0.1358.0> client unexpectedly closed TCP connection
+2023-04-26 11:26:22.487000+08:00 [info] <0.4563.0> accepting AMQP connection <0.4563.0> ([::1]:57201 -> [::1]:5672)
+2023-04-26 11:26:22.503000+08:00 [info] <0.4563.0> connection <0.4563.0> ([::1]:57201 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 11:41:29.968000+08:00 [info] <0.4655.0> accepting AMQP connection <0.4655.0> ([::1]:59032 -> [::1]:5672)
+2023-04-26 11:41:30.031000+08:00 [info] <0.4655.0> connection <0.4655.0> ([::1]:59032 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 11:41:30.062000+08:00 [info] <0.4655.0> closing AMQP connection <0.4655.0> ([::1]:59032 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 11:41:30.062000+08:00 [info] <0.4673.0> accepting AMQP connection <0.4673.0> ([::1]:59033 -> [::1]:5672)
+2023-04-26 11:41:30.077000+08:00 [info] <0.4673.0> connection <0.4673.0> ([::1]:59033 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 11:41:30.077000+08:00 [info] <0.4673.0> closing AMQP connection <0.4673.0> ([::1]:59033 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 13:40:46.952000+08:00 [info] <0.5180.0> accepting AMQP connection <0.5180.0> ([::1]:58744 -> [::1]:5672)
+2023-04-26 13:40:47.020000+08:00 [info] <0.5180.0> connection <0.5180.0> ([::1]:58744 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 13:40:47.056000+08:00 [info] <0.5180.0> closing AMQP connection <0.5180.0> ([::1]:58744 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 13:40:47.058000+08:00 [info] <0.5198.0> accepting AMQP connection <0.5198.0> ([::1]:58747 -> [::1]:5672)
+2023-04-26 13:40:47.060000+08:00 [info] <0.5198.0> connection <0.5198.0> ([::1]:58747 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 13:40:47.062000+08:00 [info] <0.5198.0> closing AMQP connection <0.5198.0> ([::1]:58747 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 13:41:04.955000+08:00 [info] <0.5224.0> accepting AMQP connection <0.5224.0> ([::1]:58753 -> [::1]:5672)
+2023-04-26 13:41:04.957000+08:00 [info] <0.5224.0> connection <0.5224.0> ([::1]:58753 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 13:41:04.960000+08:00 [info] <0.5224.0> closing AMQP connection <0.5224.0> ([::1]:58753 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 13:41:04.961000+08:00 [info] <0.5242.0> accepting AMQP connection <0.5242.0> ([::1]:58754 -> [::1]:5672)
+2023-04-26 13:41:04.963000+08:00 [info] <0.5242.0> connection <0.5242.0> ([::1]:58754 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 13:41:04.965000+08:00 [info] <0.5242.0> closing AMQP connection <0.5242.0> ([::1]:58754 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 14:04:59.842000+08:00 [info] <0.5536.0> accepting AMQP connection <0.5536.0> ([::1]:62053 -> [::1]:5672)
+2023-04-26 14:04:59.911000+08:00 [info] <0.5536.0> connection <0.5536.0> ([::1]:62053 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 14:04:59.948000+08:00 [info] <0.5536.0> closing AMQP connection <0.5536.0> ([::1]:62053 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 14:04:59.949000+08:00 [info] <0.5554.0> accepting AMQP connection <0.5554.0> ([::1]:62054 -> [::1]:5672)
+2023-04-26 14:04:59.951000+08:00 [info] <0.5554.0> connection <0.5554.0> ([::1]:62054 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 14:04:59.954000+08:00 [info] <0.5554.0> closing AMQP connection <0.5554.0> ([::1]:62054 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 14:37:14.290000+08:00 [info] <0.5761.0> accepting AMQP connection <0.5761.0> ([::1]:50287 -> [::1]:5672)
+2023-04-26 14:37:14.363000+08:00 [info] <0.5761.0> connection <0.5761.0> ([::1]:50287 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 14:37:14.401000+08:00 [info] <0.5761.0> closing AMQP connection <0.5761.0> ([::1]:50287 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 14:37:14.402000+08:00 [info] <0.5779.0> accepting AMQP connection <0.5779.0> ([::1]:50288 -> [::1]:5672)
+2023-04-26 14:37:14.404000+08:00 [info] <0.5779.0> connection <0.5779.0> ([::1]:50288 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 14:37:14.406000+08:00 [info] <0.5779.0> closing AMQP connection <0.5779.0> ([::1]:50288 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 15:11:43.848000+08:00 [info] <0.6046.0> accepting AMQP connection <0.6046.0> ([::1]:54765 -> [::1]:5672)
+2023-04-26 15:11:43.911000+08:00 [info] <0.6046.0> connection <0.6046.0> ([::1]:54765 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 15:11:43.958000+08:00 [info] <0.6046.0> closing AMQP connection <0.6046.0> ([::1]:54765 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 15:11:43.958000+08:00 [info] <0.6064.0> accepting AMQP connection <0.6064.0> ([::1]:54766 -> [::1]:5672)
+2023-04-26 15:11:43.958000+08:00 [info] <0.6064.0> connection <0.6064.0> ([::1]:54766 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 15:11:43.958000+08:00 [info] <0.6064.0> closing AMQP connection <0.6064.0> ([::1]:54766 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 20:19:09.496000+08:00 [info] <0.7235.0> accepting AMQP connection <0.7235.0> ([::1]:59206 -> [::1]:5672)
+2023-04-26 20:19:09.558000+08:00 [info] <0.7235.0> connection <0.7235.0> ([::1]:59206 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 20:19:09.605000+08:00 [info] <0.7235.0> closing AMQP connection <0.7235.0> ([::1]:59206 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 20:19:09.605000+08:00 [info] <0.7253.0> accepting AMQP connection <0.7253.0> ([::1]:59207 -> [::1]:5672)
+2023-04-26 20:19:09.605000+08:00 [info] <0.7253.0> connection <0.7253.0> ([::1]:59207 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 20:19:09.605000+08:00 [info] <0.7253.0> closing AMQP connection <0.7253.0> ([::1]:59207 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 23:16:25.288000+08:00 [info] <0.7621.0> accepting AMQP connection <0.7621.0> ([::1]:63156 -> [::1]:5672)
+2023-04-26 23:16:25.288000+08:00 [info] <0.7621.0> connection <0.7621.0> ([::1]:63156 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 23:16:25.288000+08:00 [info] <0.7621.0> closing AMQP connection <0.7621.0> ([::1]:63156 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-26 23:16:25.288000+08:00 [info] <0.7639.0> accepting AMQP connection <0.7639.0> ([::1]:63157 -> [::1]:5672)
+2023-04-26 23:16:25.288000+08:00 [info] <0.7639.0> connection <0.7639.0> ([::1]:63157 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-26 23:16:25.288000+08:00 [info] <0.7639.0> closing AMQP connection <0.7639.0> ([::1]:63157 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-27 08:05:33.645000+08:00 [info] <0.8650.0> accepting AMQP connection <0.8650.0> ([::1]:53620 -> [::1]:5672)
+2023-04-27 08:05:33.660000+08:00 [info] <0.8650.0> connection <0.8650.0> ([::1]:53620 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-27 08:05:33.660000+08:00 [info] <0.8650.0> closing AMQP connection <0.8650.0> ([::1]:53620 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-27 08:05:33.660000+08:00 [info] <0.8668.0> accepting AMQP connection <0.8668.0> ([::1]:53621 -> [::1]:5672)
+2023-04-27 08:05:33.660000+08:00 [info] <0.8668.0> connection <0.8668.0> ([::1]:53621 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-27 08:05:33.660000+08:00 [info] <0.8668.0> closing AMQP connection <0.8668.0> ([::1]:53621 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-27 10:10:06.099000+08:00 [info] <0.8967.0> accepting AMQP connection <0.8967.0> ([::1]:53632 -> [::1]:5672)
+2023-04-27 10:10:06.101000+08:00 [info] <0.8967.0> connection <0.8967.0> ([::1]:53632 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-27 10:10:06.105000+08:00 [info] <0.8967.0> closing AMQP connection <0.8967.0> ([::1]:53632 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-27 10:10:06.105000+08:00 [info] <0.8985.0> accepting AMQP connection <0.8985.0> ([::1]:53633 -> [::1]:5672)
+2023-04-27 10:10:06.107000+08:00 [info] <0.8985.0> connection <0.8985.0> ([::1]:53633 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-27 10:10:06.109000+08:00 [info] <0.8985.0> closing AMQP connection <0.8985.0> ([::1]:53633 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-27 10:17:22.851000+08:00 [info] <0.9032.0> accepting AMQP connection <0.9032.0> ([::1]:54293 -> [::1]:5672)
+2023-04-27 10:17:22.853000+08:00 [info] <0.9032.0> connection <0.9032.0> ([::1]:54293 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-27 10:17:22.855000+08:00 [info] <0.9032.0> closing AMQP connection <0.9032.0> ([::1]:54293 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-27 10:17:22.857000+08:00 [info] <0.9050.0> accepting AMQP connection <0.9050.0> ([::1]:54294 -> [::1]:5672)
+2023-04-27 10:17:22.859000+08:00 [info] <0.9050.0> connection <0.9050.0> ([::1]:54294 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-27 10:17:22.862000+08:00 [info] <0.9050.0> closing AMQP connection <0.9050.0> ([::1]:54294 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-27 10:20:28.134000+08:00 [info] <0.9083.0> accepting AMQP connection <0.9083.0> ([::1]:54702 -> [::1]:5672)
+2023-04-27 10:20:28.136000+08:00 [info] <0.9083.0> connection <0.9083.0> ([::1]:54702 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-27 10:20:28.138000+08:00 [info] <0.9083.0> closing AMQP connection <0.9083.0> ([::1]:54702 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-27 10:20:28.139000+08:00 [info] <0.9101.0> accepting AMQP connection <0.9101.0> ([::1]:54703 -> [::1]:5672)
+2023-04-27 10:20:28.141000+08:00 [info] <0.9101.0> connection <0.9101.0> ([::1]:54703 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-27 10:20:28.143000+08:00 [info] <0.9101.0> closing AMQP connection <0.9101.0> ([::1]:54703 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-27 10:26:00.987000+08:00 [info] <0.9144.0> accepting AMQP connection <0.9144.0> ([::1]:55204 -> [::1]:5672)
+2023-04-27 10:26:00.989000+08:00 [info] <0.9144.0> connection <0.9144.0> ([::1]:55204 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-27 10:26:00.992000+08:00 [info] <0.9144.0> closing AMQP connection <0.9144.0> ([::1]:55204 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-27 10:26:00.993000+08:00 [info] <0.9162.0> accepting AMQP connection <0.9162.0> ([::1]:55206 -> [::1]:5672)
+2023-04-27 10:26:00.995000+08:00 [info] <0.9162.0> connection <0.9162.0> ([::1]:55206 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-27 10:26:00.997000+08:00 [info] <0.9162.0> closing AMQP connection <0.9162.0> ([::1]:55206 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-27 18:45:53.343000+08:00 [info] <0.10145.0> accepting AMQP connection <0.10145.0> ([::1]:63818 -> [::1]:5672)
+2023-04-27 18:45:53.359000+08:00 [info] <0.10145.0> connection <0.10145.0> ([::1]:63818 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-27 18:45:53.359000+08:00 [info] <0.10145.0> closing AMQP connection <0.10145.0> ([::1]:63818 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-27 18:45:53.359000+08:00 [info] <0.10163.0> accepting AMQP connection <0.10163.0> ([::1]:63819 -> [::1]:5672)
+2023-04-27 18:45:53.359000+08:00 [info] <0.10163.0> connection <0.10163.0> ([::1]:63819 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-27 18:45:53.359000+08:00 [info] <0.10163.0> closing AMQP connection <0.10163.0> ([::1]:63819 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-27 22:28:27.790000+08:00 [info] <0.10613.0> accepting AMQP connection <0.10613.0> ([::1]:56151 -> [::1]:5672)
+2023-04-27 22:28:27.790000+08:00 [info] <0.10613.0> connection <0.10613.0> ([::1]:56151 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-27 22:28:27.790000+08:00 [info] <0.10613.0> closing AMQP connection <0.10613.0> ([::1]:56151 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-27 22:28:27.790000+08:00 [info] <0.10631.0> accepting AMQP connection <0.10631.0> ([::1]:56152 -> [::1]:5672)
+2023-04-27 22:28:27.790000+08:00 [info] <0.10631.0> connection <0.10631.0> ([::1]:56152 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-27 22:28:27.790000+08:00 [info] <0.10631.0> closing AMQP connection <0.10631.0> ([::1]:56152 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-28 17:51:00.291000+08:00 [info] <0.12854.0> accepting AMQP connection <0.12854.0> ([::1]:53708 -> [::1]:5672)
+2023-04-28 17:51:00.369000+08:00 [info] <0.12854.0> connection <0.12854.0> ([::1]:53708 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-28 17:51:00.400000+08:00 [info] <0.12854.0> closing AMQP connection <0.12854.0> ([::1]:53708 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-28 17:51:00.416000+08:00 [info] <0.12872.0> accepting AMQP connection <0.12872.0> ([::1]:53709 -> [::1]:5672)
+2023-04-28 17:51:00.416000+08:00 [info] <0.12872.0> connection <0.12872.0> ([::1]:53709 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-28 17:51:00.416000+08:00 [info] <0.12872.0> closing AMQP connection <0.12872.0> ([::1]:53709 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-30 00:30:10.549000+08:00 [info] <0.16285.0> accepting AMQP connection <0.16285.0> ([::1]:65303 -> [::1]:5672)
+2023-04-30 00:30:10.627000+08:00 [info] <0.16285.0> connection <0.16285.0> ([::1]:65303 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-30 00:30:10.674000+08:00 [info] <0.16285.0> closing AMQP connection <0.16285.0> ([::1]:65303 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-04-30 00:30:10.674000+08:00 [info] <0.16303.0> accepting AMQP connection <0.16303.0> ([::1]:65304 -> [::1]:5672)
+2023-04-30 00:30:10.674000+08:00 [info] <0.16303.0> connection <0.16303.0> ([::1]:65304 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-04-30 00:30:10.674000+08:00 [info] <0.16303.0> closing AMQP connection <0.16303.0> ([::1]:65304 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-05-01 19:30:58.630000+08:00 [info] <0.21136.0> accepting AMQP connection <0.21136.0> ([::1]:49744 -> [::1]:5672)
+2023-05-01 19:30:58.708000+08:00 [info] <0.21136.0> connection <0.21136.0> ([::1]:49744 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-05-01 19:30:58.749000+08:00 [info] <0.21136.0> closing AMQP connection <0.21136.0> ([::1]:49744 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-05-01 19:30:58.749000+08:00 [info] <0.21154.0> accepting AMQP connection <0.21154.0> ([::1]:49745 -> [::1]:5672)
+2023-05-01 19:30:58.749000+08:00 [info] <0.21154.0> connection <0.21154.0> ([::1]:49745 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-05-01 19:30:58.749000+08:00 [info] <0.21154.0> closing AMQP connection <0.21154.0> ([::1]:49745 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-05-02 12:04:14.641000+08:00 [info] <0.23016.0> accepting AMQP connection <0.23016.0> ([::1]:49547 -> [::1]:5672)
+2023-05-02 12:04:14.641000+08:00 [info] <0.23016.0> connection <0.23016.0> ([::1]:49547 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-05-02 12:04:14.641000+08:00 [info] <0.23016.0> closing AMQP connection <0.23016.0> ([::1]:49547 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-05-02 12:04:14.641000+08:00 [info] <0.23034.0> accepting AMQP connection <0.23034.0> ([::1]:49548 -> [::1]:5672)
+2023-05-02 12:04:14.641000+08:00 [info] <0.23034.0> connection <0.23034.0> ([::1]:49548 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-05-02 12:04:14.657000+08:00 [info] <0.23034.0> closing AMQP connection <0.23034.0> ([::1]:49548 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-05-05 15:00:57.458000+08:00 [info] <0.31318.0> accepting AMQP connection <0.31318.0> ([::1]:52230 -> [::1]:5672)
+2023-05-05 15:00:57.536000+08:00 [info] <0.31318.0> connection <0.31318.0> ([::1]:52230 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-05-05 15:00:57.567000+08:00 [info] <0.31318.0> closing AMQP connection <0.31318.0> ([::1]:52230 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-05-05 15:00:57.583000+08:00 [info] <0.31336.0> accepting AMQP connection <0.31336.0> ([::1]:52231 -> [::1]:5672)
+2023-05-05 15:00:57.583000+08:00 [info] <0.31336.0> connection <0.31336.0> ([::1]:52231 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-05-05 15:00:57.583000+08:00 [info] <0.31336.0> closing AMQP connection <0.31336.0> ([::1]:52231 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-05-09 16:08:40.452000+08:00 [info] <0.9320.1> accepting AMQP connection <0.9320.1> ([::1]:56640 -> [::1]:5672)
+2023-05-09 16:08:40.530000+08:00 [info] <0.9320.1> connection <0.9320.1> ([::1]:56640 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-05-09 16:08:40.562000+08:00 [info] <0.9320.1> closing AMQP connection <0.9320.1> ([::1]:56640 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-05-09 16:08:40.562000+08:00 [info] <0.9338.1> accepting AMQP connection <0.9338.1> ([::1]:56641 -> [::1]:5672)
+2023-05-09 16:08:40.577000+08:00 [info] <0.9338.1> connection <0.9338.1> ([::1]:56641 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-05-09 16:08:40.577000+08:00 [info] <0.9338.1> closing AMQP connection <0.9338.1> ([::1]:56641 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-05-09 17:28:22.474000+08:00 [info] <0.9526.1> accepting AMQP connection <0.9526.1> ([::1]:50707 -> [::1]:5672)
+2023-05-09 17:28:22.474000+08:00 [info] <0.9526.1> connection <0.9526.1> ([::1]:50707 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-05-09 17:28:22.474000+08:00 [info] <0.9526.1> closing AMQP connection <0.9526.1> ([::1]:50707 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-05-09 17:28:22.474000+08:00 [info] <0.9544.1> accepting AMQP connection <0.9544.1> ([::1]:50708 -> [::1]:5672)
+2023-05-09 17:28:22.474000+08:00 [info] <0.9544.1> connection <0.9544.1> ([::1]:50708 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-05-09 17:28:22.474000+08:00 [info] <0.9544.1> closing AMQP connection <0.9544.1> ([::1]:50708 -> [::1]:5672, vhost: 'ManYiChong', user: 'guest')
+2023-05-15 17:05:56.043000+08:00 [error] <0.561.0> Could not infer the number of file handles used: {badmatch,
+2023-05-15 17:05:56.043000+08:00 [error] <0.561.0>                                                   {error,
+2023-05-15 17:05:56.043000+08:00 [error] <0.561.0>                                                    {exit_status,-1073741523}}}
+2023-05-15 17:06:07.404000+08:00 [notice] <0.227.0> Logging: configured log handlers are now ACTIVE
+2023-05-15 17:06:14.515000+08:00 [info] <0.227.0> ra: starting system quorum_queues
+2023-05-15 17:06:14.515000+08:00 [info] <0.227.0> starting Ra system: quorum_queues in directory: c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/quorum/rabbit@ecs-1d22
+2023-05-15 17:06:14.531000+08:00 [info] <0.292.0> ra system 'quorum_queues' running pre init for 0 registered servers
+2023-05-15 17:06:14.531000+08:00 [info] <0.293.0> ra: meta data store initialised for system quorum_queues. 0 record(s) recovered
+2023-05-15 17:06:14.531000+08:00 [notice] <0.301.0> WAL: ra_log_wal init, open tbls: ra_log_open_mem_tables, closed tbls: ra_log_closed_mem_tables
+2023-05-15 17:06:14.562000+08:00 [info] <0.227.0> ra: starting system coordination
+2023-05-15 17:06:14.562000+08:00 [info] <0.227.0> starting Ra system: coordination in directory: c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/coordination/rabbit@ecs-1d22
+2023-05-15 17:06:14.562000+08:00 [info] <0.334.0> ra system 'coordination' running pre init for 0 registered servers
+2023-05-15 17:06:14.577000+08:00 [info] <0.335.0> ra: meta data store initialised for system coordination. 0 record(s) recovered
+2023-05-15 17:06:14.577000+08:00 [notice] <0.343.0> WAL: ra_coordination_log_wal init, open tbls: ra_coordination_log_open_mem_tables, closed tbls: ra_coordination_log_closed_mem_tables
+2023-05-15 17:06:14.610000+08:00 [info] <0.227.0> 
+2023-05-15 17:06:14.610000+08:00 [info] <0.227.0>  Starting RabbitMQ 3.11.13 on Erlang 25.3 [jit]
+2023-05-15 17:06:14.610000+08:00 [info] <0.227.0>  Copyright (c) 2007-2023 VMware, Inc. or its affiliates.
+2023-05-15 17:06:14.610000+08:00 [info] <0.227.0>  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+2023-05-15 17:06:14.610000+08:00 [info] <0.227.0> 
+2023-05-15 17:06:14.610000+08:00 [info] <0.227.0>  node           : rabbit@ecs-1d22
+2023-05-15 17:06:14.610000+08:00 [info] <0.227.0>  home dir       : c:/Windows/system32/config/systemprofile
+2023-05-15 17:06:14.610000+08:00 [info] <0.227.0>  config file(s) : c:/Users/Administrator/AppData/Roaming/RabbitMQ/advanced.config
+2023-05-15 17:06:14.610000+08:00 [info] <0.227.0>  cookie hash    : +Swf7XDUkhwNYvEKwxxS6Q==
+2023-05-15 17:06:14.610000+08:00 [info] <0.227.0>  log(s)         : <stdout>
+2023-05-15 17:06:14.610000+08:00 [info] <0.227.0>                 : c:/Users/Administrator/AppData/Roaming/RabbitMQ/log/rabbit@ecs-1d22.log
+2023-05-15 17:06:14.610000+08:00 [info] <0.227.0>                 : c:/Users/Administrator/AppData/Roaming/RabbitMQ/log/rabbit@ecs-1d22_upgrade.log
+2023-05-15 17:06:14.610000+08:00 [info] <0.227.0>  database dir   : c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia
+2023-05-15 17:06:16.449000+08:00 [info] <0.227.0> Running boot step pre_boot defined by app rabbit
+2023-05-15 17:06:16.449000+08:00 [info] <0.227.0> Running boot step rabbit_global_counters defined by app rabbit
+2023-05-15 17:06:16.449000+08:00 [info] <0.227.0> Running boot step rabbit_osiris_metrics defined by app rabbit
+2023-05-15 17:06:16.449000+08:00 [info] <0.227.0> Running boot step rabbit_core_metrics defined by app rabbit
+2023-05-15 17:06:16.449000+08:00 [info] <0.227.0> Running boot step rabbit_alarm defined by app rabbit
+2023-05-15 17:06:16.449000+08:00 [info] <0.370.0> Memory high watermark set to 13106 MiB (13743523430 bytes) of 32767 MiB (34358808576 bytes) total
+2023-05-15 17:06:16.449000+08:00 [info] <0.372.0> Enabling free disk space monitoring (disk free space: 7896178688, total memory: 34358808576)
+2023-05-15 17:06:16.449000+08:00 [info] <0.372.0> Disk free limit set to 50MB
+2023-05-15 17:06:16.449000+08:00 [info] <0.227.0> Running boot step code_server_cache defined by app rabbit
+2023-05-15 17:06:16.449000+08:00 [info] <0.227.0> Running boot step file_handle_cache defined by app rabbit
+2023-05-15 17:06:16.449000+08:00 [info] <0.375.0> Limiting to approx 65439 file handles (58893 sockets)
+2023-05-15 17:06:16.449000+08:00 [info] <0.376.0> FHC read buffering: OFF
+2023-05-15 17:06:16.449000+08:00 [info] <0.376.0> FHC write buffering: ON
+2023-05-15 17:06:16.464000+08:00 [info] <0.227.0> Running boot step worker_pool defined by app rabbit
+2023-05-15 17:06:16.464000+08:00 [info] <0.357.0> Will use 16 processes for default worker pool
+2023-05-15 17:06:16.464000+08:00 [info] <0.357.0> Starting worker pool 'worker_pool' with 16 processes in it
+2023-05-15 17:06:16.464000+08:00 [info] <0.227.0> Running boot step database defined by app rabbit
+2023-05-15 17:06:16.464000+08:00 [info] <0.227.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2023-05-15 17:06:16.464000+08:00 [info] <0.227.0> Successfully synced tables from a peer
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Successfully synced tables from a peer
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step tracking_metadata_store defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.401.0> Setting up a table for connection tracking on this node: tracked_connection
+2023-05-15 17:06:16.480000+08:00 [info] <0.401.0> Setting up a table for per-vhost connection counting on this node: tracked_connection_per_vhost
+2023-05-15 17:06:16.480000+08:00 [info] <0.401.0> Setting up a table for per-user connection counting on this node: tracked_connection_per_user
+2023-05-15 17:06:16.480000+08:00 [info] <0.401.0> Setting up a table for channel tracking on this node: tracked_channel
+2023-05-15 17:06:16.480000+08:00 [info] <0.401.0> Setting up a table for channel tracking on this node: tracked_channel_per_user
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step networking_metadata_store defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step database_sync defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step feature_flags defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step codec_correctness_check defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step external_infrastructure defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_event defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_delayed_message defined by app rabbitmq_delayed_message_exchange
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Successfully synced tables from a peer
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_registry defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_auth_mechanism_amqplain defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_auth_mechanism_cr_demo defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_auth_mechanism_plain defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_direct defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_fanout defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_headers defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_topic defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_mode_all defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_mode_exactly defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_mode_nodes defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_priority_queue defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Priority queues enabled, real BQ is rabbit_variable_queue
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_client_local defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_min_masters defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_random defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step kernel_ready defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_sysmon_minder defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step rabbit_epmd_monitor defined by app rabbit
+2023-05-15 17:06:16.480000+08:00 [info] <0.413.0> epmd monitor knows us, inter-node communication (distribution) port: 25672
+2023-05-15 17:06:16.480000+08:00 [info] <0.227.0> Running boot step guid_generator defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_node_monitor defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.417.0> Starting rabbit_node_monitor
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step delegate_sup defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_memory_monitor defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_fifo_dlx_sup defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step core_initialized defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step upgrade_queues defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step channel_tracking defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_channel_tracking_handler defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step connection_tracking defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_connection_tracking_handler defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_definitions_hashing defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_parameters defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_misc defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_policies defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_policy defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_validator defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_quorum_memory_manager defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_stream_coordinator defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_vhost_limit defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_delayed_message_supervisor defined by app rabbitmq_delayed_message_exchange
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_delayed_message defined by app rabbitmq_delayed_message_exchange
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_mgmt_reset_handler defined by app rabbitmq_management
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step rabbit_mgmt_db_handler defined by app rabbitmq_management_agent
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Management plugin: using rates mode 'basic'
+2023-05-15 17:06:16.496000+08:00 [info] <0.227.0> Running boot step recovery defined by app rabbit
+2023-05-15 17:06:16.496000+08:00 [info] <0.453.0> Making sure data directory 'c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/msg_stores/vhosts/AFUGTMSOWE2T0GDXL2ACC26UI' for vhost 'ManYiChong' exists
+2023-05-15 17:06:16.511000+08:00 [info] <0.453.0> Starting message stores for vhost 'ManYiChong'
+2023-05-15 17:06:16.511000+08:00 [info] <0.458.0> Message store "AFUGTMSOWE2T0GDXL2ACC26UI/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2023-05-15 17:06:16.511000+08:00 [info] <0.453.0> Started message store of type transient for vhost 'ManYiChong'
+2023-05-15 17:06:16.511000+08:00 [info] <0.462.0> Message store "AFUGTMSOWE2T0GDXL2ACC26UI/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2023-05-15 17:06:16.511000+08:00 [warning] <0.462.0> Message store "AFUGTMSOWE2T0GDXL2ACC26UI/msg_store_persistent": rebuilding indices from scratch
+2023-05-15 17:06:16.527000+08:00 [info] <0.453.0> Started message store of type persistent for vhost 'ManYiChong'
+2023-05-15 17:06:16.527000+08:00 [info] <0.453.0> Recovering 2 queues of type rabbit_classic_queue took 18ms
+2023-05-15 17:06:16.527000+08:00 [info] <0.453.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
+2023-05-15 17:06:16.527000+08:00 [info] <0.453.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2023-05-15 17:06:16.527000+08:00 [info] <0.502.0> Making sure data directory 'c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+2023-05-15 17:06:16.543000+08:00 [info] <0.502.0> Starting message stores for vhost '/'
+2023-05-15 17:06:16.543000+08:00 [info] <0.506.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2023-05-15 17:06:16.543000+08:00 [info] <0.502.0> Started message store of type transient for vhost '/'
+2023-05-15 17:06:16.543000+08:00 [info] <0.510.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2023-05-15 17:06:16.543000+08:00 [warning] <0.510.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
+2023-05-15 17:06:16.543000+08:00 [info] <0.502.0> Started message store of type persistent for vhost '/'
+2023-05-15 17:06:16.543000+08:00 [info] <0.502.0> Recovering 0 queues of type rabbit_classic_queue took 8ms
+2023-05-15 17:06:16.543000+08:00 [info] <0.502.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
+2023-05-15 17:06:16.543000+08:00 [info] <0.502.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2023-05-15 17:06:16.543000+08:00 [info] <0.227.0> Running boot step empty_db_check defined by app rabbit
+2023-05-15 17:06:16.543000+08:00 [info] <0.227.0> Will not seed default virtual host and user: have definitions to load...
+2023-05-15 17:06:16.543000+08:00 [info] <0.227.0> Running boot step rabbit_observer_cli defined by app rabbit
+2023-05-15 17:06:16.543000+08:00 [info] <0.227.0> Running boot step rabbit_looking_glass defined by app rabbit
+2023-05-15 17:06:16.543000+08:00 [info] <0.227.0> Running boot step rabbit_core_metrics_gc defined by app rabbit
+2023-05-15 17:06:16.543000+08:00 [info] <0.227.0> Running boot step background_gc defined by app rabbit
+2023-05-15 17:06:16.543000+08:00 [info] <0.227.0> Running boot step routing_ready defined by app rabbit
+2023-05-15 17:06:16.543000+08:00 [info] <0.227.0> Running boot step pre_flight defined by app rabbit
+2023-05-15 17:06:16.543000+08:00 [info] <0.227.0> Running boot step notify_cluster defined by app rabbit
+2023-05-15 17:06:16.543000+08:00 [info] <0.227.0> Running boot step networking defined by app rabbit
+2023-05-15 17:06:16.543000+08:00 [info] <0.227.0> Running boot step definition_import_worker_pool defined by app rabbit
+2023-05-15 17:06:16.543000+08:00 [info] <0.357.0> Starting worker pool 'definition_import_pool' with 16 processes in it
+2023-05-15 17:06:16.543000+08:00 [info] <0.227.0> Running boot step cluster_name defined by app rabbit
+2023-05-15 17:06:16.543000+08:00 [info] <0.227.0> Running boot step direct_client defined by app rabbit
+2023-05-15 17:06:16.543000+08:00 [info] <0.227.0> Running boot step rabbit_maintenance_mode_state defined by app rabbit
+2023-05-15 17:06:16.543000+08:00 [info] <0.227.0> Creating table rabbit_node_maintenance_states for maintenance mode status
+2023-05-15 17:06:16.543000+08:00 [info] <0.227.0> Running boot step rabbit_management_load_definitions defined by app rabbitmq_management
+2023-05-15 17:06:16.543000+08:00 [info] <0.560.0> Resetting node maintenance status
+2023-05-15 17:06:17.279000+08:00 [info] <0.619.0> Management plugin: HTTP (non-TLS) listener started on port 15672
+2023-05-15 17:06:17.279000+08:00 [info] <0.647.0> Statistics database started.
+2023-05-15 17:06:17.279000+08:00 [info] <0.646.0> Starting worker pool 'management_worker_pool' with 3 processes in it
+2023-05-15 17:06:17.279000+08:00 [info] <0.560.0> Ready to start client connection listeners
+2023-05-15 17:06:17.279000+08:00 [info] <0.675.0> started TCP listener on [::]:5672
+2023-05-15 17:06:17.279000+08:00 [info] <0.693.0> started TCP listener on 0.0.0.0:5672
+2023-05-15 17:06:17.514000+08:00 [info] <0.560.0> Server startup complete; 4 plugins started.
+2023-05-15 17:06:17.514000+08:00 [info] <0.560.0>  * rabbitmq_delayed_message_exchange
+2023-05-15 17:06:17.514000+08:00 [info] <0.560.0>  * rabbitmq_management
+2023-05-15 17:06:17.514000+08:00 [info] <0.560.0>  * rabbitmq_web_dispatch
+2023-05-15 17:06:17.514000+08:00 [info] <0.560.0>  * rabbitmq_management_agent
+2023-05-15 17:06:17.561000+08:00 [info] <0.696.0> accepting AMQP connection <0.696.0> (127.0.0.1:51366 -> 127.0.0.1:5672)
+2023-05-15 17:06:17.561000+08:00 [info] <0.696.0> connection <0.696.0> (127.0.0.1:51366 -> 127.0.0.1:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0> handle.exe output did not contain a line beginning with 'File', using powershell to determine used file descriptor count: ["Nthandle v5.0 - Handle viewer",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "Copyright (C) 1997-2022 Mark Russinovich",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "Sysinternals - www.sysinternals.com",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "Handle type summary:",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "ALPC Port       : 1",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "Desktop         : 1",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "Directory       : 2",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "EtwRegistration : 85",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "Event           : 112",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "Event           : 38",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "IoCompletion    : 5",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "IRTimer         : 6",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "Key             : 15",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "Mutant          : 1",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "Process         : 4",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "Section         : 1",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "Semaphore       : 6",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "Thread          : 13",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "TpWorkerFactory : 3",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "WaitCompletionPacket: 8",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "WindowStation   : 2",
+2023-05-15 17:27:52.379000+08:00 [warning] <0.567.0>                                                                                                                            "Total handles: 303"]
+2023-05-16 15:26:01.308000+08:00 [error] <0.567.0> Could not infer the number of file handles used: {badmatch,{error,timeout}}
+2023-05-16 15:26:21.625000+08:00 [notice] <0.227.0> Logging: configured log handlers are now ACTIVE
+2023-05-16 15:26:25.279000+08:00 [info] <0.227.0> ra: starting system quorum_queues
+2023-05-16 15:26:25.279000+08:00 [info] <0.227.0> starting Ra system: quorum_queues in directory: c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/quorum/rabbit@ecs-1d22
+2023-05-16 15:26:25.279000+08:00 [info] <0.295.0> ra system 'quorum_queues' running pre init for 0 registered servers
+2023-05-16 15:26:25.279000+08:00 [info] <0.296.0> ra: meta data store initialised for system quorum_queues. 0 record(s) recovered
+2023-05-16 15:26:25.279000+08:00 [notice] <0.307.0> WAL: ra_log_wal init, open tbls: ra_log_open_mem_tables, closed tbls: ra_log_closed_mem_tables
+2023-05-16 15:26:25.311000+08:00 [info] <0.227.0> ra: starting system coordination
+2023-05-16 15:26:25.311000+08:00 [info] <0.227.0> starting Ra system: coordination in directory: c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/coordination/rabbit@ecs-1d22
+2023-05-16 15:26:25.311000+08:00 [info] <0.345.0> ra system 'coordination' running pre init for 0 registered servers
+2023-05-16 15:26:25.311000+08:00 [info] <0.346.0> ra: meta data store initialised for system coordination. 0 record(s) recovered
+2023-05-16 15:26:25.311000+08:00 [notice] <0.351.0> WAL: ra_coordination_log_wal init, open tbls: ra_coordination_log_open_mem_tables, closed tbls: ra_coordination_log_closed_mem_tables
+2023-05-16 15:26:25.342000+08:00 [info] <0.227.0> 
+2023-05-16 15:26:25.342000+08:00 [info] <0.227.0>  Starting RabbitMQ 3.11.13 on Erlang 25.3 [jit]
+2023-05-16 15:26:25.342000+08:00 [info] <0.227.0>  Copyright (c) 2007-2023 VMware, Inc. or its affiliates.
+2023-05-16 15:26:25.342000+08:00 [info] <0.227.0>  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+2023-05-16 15:26:25.342000+08:00 [info] <0.227.0> 
+2023-05-16 15:26:25.342000+08:00 [info] <0.227.0>  node           : rabbit@ecs-1d22
+2023-05-16 15:26:25.342000+08:00 [info] <0.227.0>  home dir       : c:/Windows/system32/config/systemprofile
+2023-05-16 15:26:25.342000+08:00 [info] <0.227.0>  config file(s) : c:/Users/Administrator/AppData/Roaming/RabbitMQ/advanced.config
+2023-05-16 15:26:25.342000+08:00 [info] <0.227.0>  cookie hash    : +Swf7XDUkhwNYvEKwxxS6Q==
+2023-05-16 15:26:25.342000+08:00 [info] <0.227.0>  log(s)         : <stdout>
+2023-05-16 15:26:25.342000+08:00 [info] <0.227.0>                 : c:/Users/Administrator/AppData/Roaming/RabbitMQ/log/rabbit@ecs-1d22.log
+2023-05-16 15:26:25.342000+08:00 [info] <0.227.0>                 : c:/Users/Administrator/AppData/Roaming/RabbitMQ/log/rabbit@ecs-1d22_upgrade.log
+2023-05-16 15:26:25.342000+08:00 [info] <0.227.0>  database dir   : c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia
+2023-05-16 15:26:26.164000+08:00 [info] <0.227.0> Running boot step pre_boot defined by app rabbit
+2023-05-16 15:26:26.164000+08:00 [info] <0.227.0> Running boot step rabbit_global_counters defined by app rabbit
+2023-05-16 15:26:26.164000+08:00 [info] <0.227.0> Running boot step rabbit_osiris_metrics defined by app rabbit
+2023-05-16 15:26:26.164000+08:00 [info] <0.227.0> Running boot step rabbit_core_metrics defined by app rabbit
+2023-05-16 15:26:26.164000+08:00 [info] <0.227.0> Running boot step rabbit_alarm defined by app rabbit
+2023-05-16 15:26:26.164000+08:00 [info] <0.366.0> Memory high watermark set to 13106 MiB (13743523430 bytes) of 32767 MiB (34358808576 bytes) total
+2023-05-16 15:26:26.164000+08:00 [info] <0.368.0> Enabling free disk space monitoring (disk free space: 7858745344, total memory: 34358808576)
+2023-05-16 15:26:26.164000+08:00 [info] <0.368.0> Disk free limit set to 50MB
+2023-05-16 15:26:26.164000+08:00 [info] <0.227.0> Running boot step code_server_cache defined by app rabbit
+2023-05-16 15:26:26.164000+08:00 [info] <0.227.0> Running boot step file_handle_cache defined by app rabbit
+2023-05-16 15:26:26.164000+08:00 [info] <0.371.0> Limiting to approx 65439 file handles (58893 sockets)
+2023-05-16 15:26:26.164000+08:00 [info] <0.372.0> FHC read buffering: OFF
+2023-05-16 15:26:26.164000+08:00 [info] <0.372.0> FHC write buffering: ON
+2023-05-16 15:26:26.164000+08:00 [info] <0.227.0> Running boot step worker_pool defined by app rabbit
+2023-05-16 15:26:26.164000+08:00 [info] <0.353.0> Will use 16 processes for default worker pool
+2023-05-16 15:26:26.164000+08:00 [info] <0.353.0> Starting worker pool 'worker_pool' with 16 processes in it
+2023-05-16 15:26:26.164000+08:00 [info] <0.227.0> Running boot step database defined by app rabbit
+2023-05-16 15:26:26.179000+08:00 [info] <0.227.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2023-05-16 15:26:26.179000+08:00 [info] <0.227.0> Successfully synced tables from a peer
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Successfully synced tables from a peer
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step tracking_metadata_store defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.397.0> Setting up a table for connection tracking on this node: tracked_connection
+2023-05-16 15:26:26.195000+08:00 [info] <0.397.0> Setting up a table for per-vhost connection counting on this node: tracked_connection_per_vhost
+2023-05-16 15:26:26.195000+08:00 [info] <0.397.0> Setting up a table for per-user connection counting on this node: tracked_connection_per_user
+2023-05-16 15:26:26.195000+08:00 [info] <0.397.0> Setting up a table for channel tracking on this node: tracked_channel
+2023-05-16 15:26:26.195000+08:00 [info] <0.397.0> Setting up a table for channel tracking on this node: tracked_channel_per_user
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step networking_metadata_store defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step database_sync defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step feature_flags defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step codec_correctness_check defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step external_infrastructure defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_event defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_delayed_message defined by app rabbitmq_delayed_message_exchange
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Successfully synced tables from a peer
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_registry defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_auth_mechanism_amqplain defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_auth_mechanism_cr_demo defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_auth_mechanism_plain defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_direct defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_fanout defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_headers defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_topic defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_mode_all defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_mode_exactly defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_mode_nodes defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_priority_queue defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Priority queues enabled, real BQ is rabbit_variable_queue
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_client_local defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_min_masters defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_random defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step kernel_ready defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_sysmon_minder defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_epmd_monitor defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.409.0> epmd monitor knows us, inter-node communication (distribution) port: 25672
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step guid_generator defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_node_monitor defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.413.0> Starting rabbit_node_monitor
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step delegate_sup defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_memory_monitor defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step rabbit_fifo_dlx_sup defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step core_initialized defined by app rabbit
+2023-05-16 15:26:26.195000+08:00 [info] <0.227.0> Running boot step upgrade_queues defined by app rabbit
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step channel_tracking defined by app rabbit
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step rabbit_channel_tracking_handler defined by app rabbit
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step connection_tracking defined by app rabbit
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step rabbit_connection_tracking_handler defined by app rabbit
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step rabbit_definitions_hashing defined by app rabbit
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_parameters defined by app rabbit
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_misc defined by app rabbit
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step rabbit_policies defined by app rabbit
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step rabbit_policy defined by app rabbit
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_validator defined by app rabbit
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step rabbit_quorum_memory_manager defined by app rabbit
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step rabbit_stream_coordinator defined by app rabbit
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step rabbit_vhost_limit defined by app rabbit
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step rabbit_delayed_message_supervisor defined by app rabbitmq_delayed_message_exchange
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_delayed_message defined by app rabbitmq_delayed_message_exchange
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step rabbit_mgmt_reset_handler defined by app rabbitmq_management
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step rabbit_mgmt_db_handler defined by app rabbitmq_management_agent
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Management plugin: using rates mode 'basic'
+2023-05-16 15:26:26.211000+08:00 [info] <0.227.0> Running boot step recovery defined by app rabbit
+2023-05-16 15:26:26.211000+08:00 [info] <0.449.0> Making sure data directory 'c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/msg_stores/vhosts/AFUGTMSOWE2T0GDXL2ACC26UI' for vhost 'ManYiChong' exists
+2023-05-16 15:26:26.211000+08:00 [info] <0.449.0> Starting message stores for vhost 'ManYiChong'
+2023-05-16 15:26:26.211000+08:00 [info] <0.454.0> Message store "AFUGTMSOWE2T0GDXL2ACC26UI/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2023-05-16 15:26:26.211000+08:00 [info] <0.449.0> Started message store of type transient for vhost 'ManYiChong'
+2023-05-16 15:26:26.211000+08:00 [info] <0.458.0> Message store "AFUGTMSOWE2T0GDXL2ACC26UI/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2023-05-16 15:26:26.211000+08:00 [warning] <0.458.0> Message store "AFUGTMSOWE2T0GDXL2ACC26UI/msg_store_persistent": rebuilding indices from scratch
+2023-05-16 15:26:26.226000+08:00 [info] <0.449.0> Started message store of type persistent for vhost 'ManYiChong'
+2023-05-16 15:26:26.226000+08:00 [info] <0.449.0> Recovering 2 queues of type rabbit_classic_queue took 16ms
+2023-05-16 15:26:26.226000+08:00 [info] <0.449.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
+2023-05-16 15:26:26.226000+08:00 [info] <0.449.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2023-05-16 15:26:26.226000+08:00 [info] <0.498.0> Making sure data directory 'c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+2023-05-16 15:26:26.241000+08:00 [info] <0.498.0> Starting message stores for vhost '/'
+2023-05-16 15:26:26.241000+08:00 [info] <0.502.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2023-05-16 15:26:26.241000+08:00 [info] <0.498.0> Started message store of type transient for vhost '/'
+2023-05-16 15:26:26.241000+08:00 [info] <0.506.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2023-05-16 15:26:26.241000+08:00 [warning] <0.506.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
+2023-05-16 15:26:26.241000+08:00 [info] <0.498.0> Started message store of type persistent for vhost '/'
+2023-05-16 15:26:26.241000+08:00 [info] <0.498.0> Recovering 0 queues of type rabbit_classic_queue took 7ms
+2023-05-16 15:26:26.241000+08:00 [info] <0.498.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
+2023-05-16 15:26:26.241000+08:00 [info] <0.498.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2023-05-16 15:26:26.241000+08:00 [info] <0.227.0> Running boot step empty_db_check defined by app rabbit
+2023-05-16 15:26:26.241000+08:00 [info] <0.227.0> Will not seed default virtual host and user: have definitions to load...
+2023-05-16 15:26:26.241000+08:00 [info] <0.227.0> Running boot step rabbit_observer_cli defined by app rabbit
+2023-05-16 15:26:26.241000+08:00 [info] <0.227.0> Running boot step rabbit_looking_glass defined by app rabbit
+2023-05-16 15:26:26.241000+08:00 [info] <0.227.0> Running boot step rabbit_core_metrics_gc defined by app rabbit
+2023-05-16 15:26:26.241000+08:00 [info] <0.227.0> Running boot step background_gc defined by app rabbit
+2023-05-16 15:26:26.241000+08:00 [info] <0.227.0> Running boot step routing_ready defined by app rabbit
+2023-05-16 15:26:26.241000+08:00 [info] <0.227.0> Running boot step pre_flight defined by app rabbit
+2023-05-16 15:26:26.241000+08:00 [info] <0.227.0> Running boot step notify_cluster defined by app rabbit
+2023-05-16 15:26:26.241000+08:00 [info] <0.227.0> Running boot step networking defined by app rabbit
+2023-05-16 15:26:26.241000+08:00 [info] <0.227.0> Running boot step definition_import_worker_pool defined by app rabbit
+2023-05-16 15:26:26.241000+08:00 [info] <0.353.0> Starting worker pool 'definition_import_pool' with 16 processes in it
+2023-05-16 15:26:26.241000+08:00 [info] <0.227.0> Running boot step cluster_name defined by app rabbit
+2023-05-16 15:26:26.241000+08:00 [info] <0.227.0> Running boot step direct_client defined by app rabbit
+2023-05-16 15:26:26.241000+08:00 [info] <0.227.0> Running boot step rabbit_maintenance_mode_state defined by app rabbit
+2023-05-16 15:26:26.241000+08:00 [info] <0.227.0> Creating table rabbit_node_maintenance_states for maintenance mode status
+2023-05-16 15:26:26.241000+08:00 [info] <0.227.0> Running boot step rabbit_management_load_definitions defined by app rabbitmq_management
+2023-05-16 15:26:26.241000+08:00 [info] <0.556.0> Resetting node maintenance status
+2023-05-16 15:26:26.257000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 15:26:26.257000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 15:26:26.273000+08:00 [info] <0.615.0> Management plugin: HTTP (non-TLS) listener started on port 15672
+2023-05-16 15:26:26.273000+08:00 [info] <0.643.0> Statistics database started.
+2023-05-16 15:26:26.273000+08:00 [info] <0.642.0> Starting worker pool 'management_worker_pool' with 3 processes in it
+2023-05-16 15:26:26.273000+08:00 [info] <0.556.0> Ready to start client connection listeners
+2023-05-16 15:26:26.273000+08:00 [info] <0.671.0> started TCP listener on [::]:5672
+2023-05-16 15:26:26.273000+08:00 [info] <0.689.0> started TCP listener on 0.0.0.0:5672
+2023-05-16 15:26:26.507000+08:00 [info] <0.556.0> Server startup complete; 4 plugins started.
+2023-05-16 15:26:26.507000+08:00 [info] <0.556.0>  * rabbitmq_delayed_message_exchange
+2023-05-16 15:26:26.507000+08:00 [info] <0.556.0>  * rabbitmq_management
+2023-05-16 15:26:26.507000+08:00 [info] <0.556.0>  * rabbitmq_web_dispatch
+2023-05-16 15:26:26.507000+08:00 [info] <0.556.0>  * rabbitmq_management_agent
+2023-05-16 15:26:28.925000+08:00 [info] <0.692.0> accepting AMQP connection <0.692.0> ([::1]:64273 -> [::1]:5672)
+2023-05-16 15:26:28.925000+08:00 [info] <0.692.0> connection <0.692.0> ([::1]:64273 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-05-16 15:31:37.702000+08:00 [notice] <0.227.0> Logging: configured log handlers are now ACTIVE
+2023-05-16 15:31:45.112000+08:00 [info] <0.227.0> ra: starting system quorum_queues
+2023-05-16 15:31:45.112000+08:00 [info] <0.227.0> starting Ra system: quorum_queues in directory: c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/quorum/rabbit@ecs-1d22
+2023-05-16 15:31:45.128000+08:00 [info] <0.292.0> ra system 'quorum_queues' running pre init for 0 registered servers
+2023-05-16 15:31:45.128000+08:00 [info] <0.293.0> ra: meta data store initialised for system quorum_queues. 0 record(s) recovered
+2023-05-16 15:31:45.128000+08:00 [notice] <0.301.0> WAL: ra_log_wal init, open tbls: ra_log_open_mem_tables, closed tbls: ra_log_closed_mem_tables
+2023-05-16 15:31:45.159000+08:00 [info] <0.227.0> ra: starting system coordination
+2023-05-16 15:31:45.159000+08:00 [info] <0.227.0> starting Ra system: coordination in directory: c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/coordination/rabbit@ecs-1d22
+2023-05-16 15:31:45.159000+08:00 [info] <0.345.0> ra system 'coordination' running pre init for 0 registered servers
+2023-05-16 15:31:45.159000+08:00 [info] <0.346.0> ra: meta data store initialised for system coordination. 0 record(s) recovered
+2023-05-16 15:31:45.159000+08:00 [notice] <0.351.0> WAL: ra_coordination_log_wal init, open tbls: ra_coordination_log_open_mem_tables, closed tbls: ra_coordination_log_closed_mem_tables
+2023-05-16 15:31:45.191000+08:00 [info] <0.227.0> 
+2023-05-16 15:31:45.191000+08:00 [info] <0.227.0>  Starting RabbitMQ 3.11.13 on Erlang 25.3 [jit]
+2023-05-16 15:31:45.191000+08:00 [info] <0.227.0>  Copyright (c) 2007-2023 VMware, Inc. or its affiliates.
+2023-05-16 15:31:45.191000+08:00 [info] <0.227.0>  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+2023-05-16 15:31:45.191000+08:00 [info] <0.227.0> 
+2023-05-16 15:31:45.191000+08:00 [info] <0.227.0>  node           : rabbit@ecs-1d22
+2023-05-16 15:31:45.191000+08:00 [info] <0.227.0>  home dir       : c:/Windows/system32/config/systemprofile
+2023-05-16 15:31:45.191000+08:00 [info] <0.227.0>  config file(s) : c:/Users/Administrator/AppData/Roaming/RabbitMQ/advanced.config
+2023-05-16 15:31:45.191000+08:00 [info] <0.227.0>  cookie hash    : +Swf7XDUkhwNYvEKwxxS6Q==
+2023-05-16 15:31:45.191000+08:00 [info] <0.227.0>  log(s)         : <stdout>
+2023-05-16 15:31:45.191000+08:00 [info] <0.227.0>                 : c:/Users/Administrator/AppData/Roaming/RabbitMQ/log/rabbit@ecs-1d22.log
+2023-05-16 15:31:45.191000+08:00 [info] <0.227.0>                 : c:/Users/Administrator/AppData/Roaming/RabbitMQ/log/rabbit@ecs-1d22_upgrade.log
+2023-05-16 15:31:45.191000+08:00 [info] <0.227.0>  database dir   : c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia
+2023-05-16 15:31:46.864000+08:00 [info] <0.227.0> Running boot step pre_boot defined by app rabbit
+2023-05-16 15:31:46.864000+08:00 [info] <0.227.0> Running boot step rabbit_global_counters defined by app rabbit
+2023-05-16 15:31:46.864000+08:00 [info] <0.227.0> Running boot step rabbit_osiris_metrics defined by app rabbit
+2023-05-16 15:31:46.864000+08:00 [info] <0.227.0> Running boot step rabbit_core_metrics defined by app rabbit
+2023-05-16 15:31:46.864000+08:00 [info] <0.227.0> Running boot step rabbit_alarm defined by app rabbit
+2023-05-16 15:31:46.864000+08:00 [info] <0.366.0> Memory high watermark set to 13106 MiB (13743523430 bytes) of 32767 MiB (34358808576 bytes) total
+2023-05-16 15:31:46.874000+08:00 [info] <0.368.0> Enabling free disk space monitoring (disk free space: 7855165440, total memory: 34358808576)
+2023-05-16 15:31:46.874000+08:00 [info] <0.368.0> Disk free limit set to 50MB
+2023-05-16 15:31:46.874000+08:00 [info] <0.227.0> Running boot step code_server_cache defined by app rabbit
+2023-05-16 15:31:46.874000+08:00 [info] <0.227.0> Running boot step file_handle_cache defined by app rabbit
+2023-05-16 15:31:46.874000+08:00 [info] <0.371.0> Limiting to approx 65439 file handles (58893 sockets)
+2023-05-16 15:31:46.874000+08:00 [info] <0.372.0> FHC read buffering: OFF
+2023-05-16 15:31:46.874000+08:00 [info] <0.372.0> FHC write buffering: ON
+2023-05-16 15:31:46.874000+08:00 [info] <0.227.0> Running boot step worker_pool defined by app rabbit
+2023-05-16 15:31:46.874000+08:00 [info] <0.353.0> Will use 16 processes for default worker pool
+2023-05-16 15:31:46.874000+08:00 [info] <0.353.0> Starting worker pool 'worker_pool' with 16 processes in it
+2023-05-16 15:31:46.874000+08:00 [info] <0.227.0> Running boot step database defined by app rabbit
+2023-05-16 15:31:46.874000+08:00 [info] <0.227.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2023-05-16 15:31:46.874000+08:00 [info] <0.227.0> Successfully synced tables from a peer
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Successfully synced tables from a peer
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step tracking_metadata_store defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.397.0> Setting up a table for connection tracking on this node: tracked_connection
+2023-05-16 15:31:46.905000+08:00 [info] <0.397.0> Setting up a table for per-vhost connection counting on this node: tracked_connection_per_vhost
+2023-05-16 15:31:46.905000+08:00 [info] <0.397.0> Setting up a table for per-user connection counting on this node: tracked_connection_per_user
+2023-05-16 15:31:46.905000+08:00 [info] <0.397.0> Setting up a table for channel tracking on this node: tracked_channel
+2023-05-16 15:31:46.905000+08:00 [info] <0.397.0> Setting up a table for channel tracking on this node: tracked_channel_per_user
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step networking_metadata_store defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step database_sync defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step feature_flags defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step codec_correctness_check defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step external_infrastructure defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_event defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_delayed_message defined by app rabbitmq_delayed_message_exchange
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Successfully synced tables from a peer
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_registry defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_auth_mechanism_amqplain defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_auth_mechanism_cr_demo defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_auth_mechanism_plain defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_direct defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_fanout defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_headers defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_topic defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_mode_all defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_mode_exactly defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_mode_nodes defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_priority_queue defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Priority queues enabled, real BQ is rabbit_variable_queue
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_client_local defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_min_masters defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_random defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step kernel_ready defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_sysmon_minder defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_epmd_monitor defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.409.0> epmd monitor knows us, inter-node communication (distribution) port: 25672
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step guid_generator defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_node_monitor defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.413.0> Starting rabbit_node_monitor
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step delegate_sup defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_memory_monitor defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step rabbit_fifo_dlx_sup defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step core_initialized defined by app rabbit
+2023-05-16 15:31:46.905000+08:00 [info] <0.227.0> Running boot step upgrade_queues defined by app rabbit
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step channel_tracking defined by app rabbit
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step rabbit_channel_tracking_handler defined by app rabbit
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step connection_tracking defined by app rabbit
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step rabbit_connection_tracking_handler defined by app rabbit
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step rabbit_definitions_hashing defined by app rabbit
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_parameters defined by app rabbit
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_misc defined by app rabbit
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step rabbit_policies defined by app rabbit
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step rabbit_policy defined by app rabbit
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_validator defined by app rabbit
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step rabbit_quorum_memory_manager defined by app rabbit
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step rabbit_stream_coordinator defined by app rabbit
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step rabbit_vhost_limit defined by app rabbit
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step rabbit_delayed_message_supervisor defined by app rabbitmq_delayed_message_exchange
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_delayed_message defined by app rabbitmq_delayed_message_exchange
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step rabbit_mgmt_reset_handler defined by app rabbitmq_management
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step rabbit_mgmt_db_handler defined by app rabbitmq_management_agent
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Management plugin: using rates mode 'basic'
+2023-05-16 15:31:46.921000+08:00 [info] <0.227.0> Running boot step recovery defined by app rabbit
+2023-05-16 15:31:46.921000+08:00 [info] <0.449.0> Making sure data directory 'c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/msg_stores/vhosts/AFUGTMSOWE2T0GDXL2ACC26UI' for vhost 'ManYiChong' exists
+2023-05-16 15:31:46.921000+08:00 [info] <0.449.0> Starting message stores for vhost 'ManYiChong'
+2023-05-16 15:31:46.921000+08:00 [info] <0.454.0> Message store "AFUGTMSOWE2T0GDXL2ACC26UI/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2023-05-16 15:31:46.921000+08:00 [info] <0.449.0> Started message store of type transient for vhost 'ManYiChong'
+2023-05-16 15:31:46.921000+08:00 [info] <0.458.0> Message store "AFUGTMSOWE2T0GDXL2ACC26UI/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2023-05-16 15:31:46.921000+08:00 [warning] <0.458.0> Message store "AFUGTMSOWE2T0GDXL2ACC26UI/msg_store_persistent": rebuilding indices from scratch
+2023-05-16 15:31:46.937000+08:00 [info] <0.449.0> Started message store of type persistent for vhost 'ManYiChong'
+2023-05-16 15:31:46.937000+08:00 [info] <0.449.0> Recovering 2 queues of type rabbit_classic_queue took 17ms
+2023-05-16 15:31:46.937000+08:00 [info] <0.449.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
+2023-05-16 15:31:46.937000+08:00 [info] <0.449.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2023-05-16 15:31:46.937000+08:00 [info] <0.498.0> Making sure data directory 'c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+2023-05-16 15:31:46.937000+08:00 [info] <0.498.0> Starting message stores for vhost '/'
+2023-05-16 15:31:46.937000+08:00 [info] <0.502.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2023-05-16 15:31:46.953000+08:00 [info] <0.498.0> Started message store of type transient for vhost '/'
+2023-05-16 15:31:46.953000+08:00 [info] <0.506.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2023-05-16 15:31:46.953000+08:00 [warning] <0.506.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
+2023-05-16 15:31:46.953000+08:00 [info] <0.498.0> Started message store of type persistent for vhost '/'
+2023-05-16 15:31:46.953000+08:00 [info] <0.498.0> Recovering 0 queues of type rabbit_classic_queue took 7ms
+2023-05-16 15:31:46.953000+08:00 [info] <0.498.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
+2023-05-16 15:31:46.953000+08:00 [info] <0.498.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2023-05-16 15:31:46.953000+08:00 [info] <0.227.0> Running boot step empty_db_check defined by app rabbit
+2023-05-16 15:31:46.953000+08:00 [info] <0.227.0> Will not seed default virtual host and user: have definitions to load...
+2023-05-16 15:31:46.953000+08:00 [info] <0.227.0> Running boot step rabbit_observer_cli defined by app rabbit
+2023-05-16 15:31:46.953000+08:00 [info] <0.227.0> Running boot step rabbit_looking_glass defined by app rabbit
+2023-05-16 15:31:46.953000+08:00 [info] <0.227.0> Running boot step rabbit_core_metrics_gc defined by app rabbit
+2023-05-16 15:31:46.953000+08:00 [info] <0.227.0> Running boot step background_gc defined by app rabbit
+2023-05-16 15:31:46.953000+08:00 [info] <0.227.0> Running boot step routing_ready defined by app rabbit
+2023-05-16 15:31:46.953000+08:00 [info] <0.227.0> Running boot step pre_flight defined by app rabbit
+2023-05-16 15:31:46.953000+08:00 [info] <0.227.0> Running boot step notify_cluster defined by app rabbit
+2023-05-16 15:31:46.953000+08:00 [info] <0.227.0> Running boot step networking defined by app rabbit
+2023-05-16 15:31:46.953000+08:00 [info] <0.227.0> Running boot step definition_import_worker_pool defined by app rabbit
+2023-05-16 15:31:46.953000+08:00 [info] <0.353.0> Starting worker pool 'definition_import_pool' with 16 processes in it
+2023-05-16 15:31:46.953000+08:00 [info] <0.227.0> Running boot step cluster_name defined by app rabbit
+2023-05-16 15:31:46.953000+08:00 [info] <0.227.0> Running boot step direct_client defined by app rabbit
+2023-05-16 15:31:46.953000+08:00 [info] <0.227.0> Running boot step rabbit_maintenance_mode_state defined by app rabbit
+2023-05-16 15:31:46.953000+08:00 [info] <0.227.0> Creating table rabbit_node_maintenance_states for maintenance mode status
+2023-05-16 15:31:46.953000+08:00 [info] <0.227.0> Running boot step rabbit_management_load_definitions defined by app rabbitmq_management
+2023-05-16 15:31:46.953000+08:00 [info] <0.556.0> Resetting node maintenance status
+2023-05-16 15:31:46.968000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 15:31:46.968000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 15:31:46.984000+08:00 [info] <0.615.0> Management plugin: HTTP (non-TLS) listener started on port 15672
+2023-05-16 15:31:46.984000+08:00 [info] <0.643.0> Statistics database started.
+2023-05-16 15:31:46.984000+08:00 [info] <0.642.0> Starting worker pool 'management_worker_pool' with 3 processes in it
+2023-05-16 15:31:46.984000+08:00 [info] <0.556.0> Ready to start client connection listeners
+2023-05-16 15:31:47.000000+08:00 [info] <0.671.0> started TCP listener on [::]:5672
+2023-05-16 15:31:47.000000+08:00 [info] <0.689.0> started TCP listener on 0.0.0.0:5672
+2023-05-16 15:31:47.328000+08:00 [info] <0.556.0> Server startup complete; 4 plugins started.
+2023-05-16 15:31:47.328000+08:00 [info] <0.556.0>  * rabbitmq_delayed_message_exchange
+2023-05-16 15:31:47.328000+08:00 [info] <0.556.0>  * rabbitmq_management
+2023-05-16 15:31:47.328000+08:00 [info] <0.556.0>  * rabbitmq_web_dispatch
+2023-05-16 15:31:47.328000+08:00 [info] <0.556.0>  * rabbitmq_management_agent
+2023-05-16 15:31:47.974000+08:00 [info] <0.692.0> accepting AMQP connection <0.692.0> ([::1]:64847 -> [::1]:5672)
+2023-05-16 15:31:47.974000+08:00 [info] <0.692.0> connection <0.692.0> ([::1]:64847 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-05-16 15:41:51.395000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 15:41:51.395000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 15:51:52.312000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 15:51:52.312000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 16:01:56.940000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 16:01:56.940000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 16:12:01.383000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 16:12:01.383000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 16:22:05.429000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 16:22:05.429000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 16:32:09.771000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 16:32:09.771000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 16:42:08.950000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 16:42:08.950000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 16:52:09.323000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 16:52:09.323000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 17:02:13.788000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 17:02:13.788000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 17:12:17.944000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 17:12:17.944000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 17:22:22.526000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 17:22:22.526000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 17:32:22.207000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 17:32:22.207000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 17:42:26.139000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 17:42:26.139000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 17:52:26.024000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 17:52:26.024000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 18:02:30.518000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 18:02:30.518000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 18:12:31.028000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 18:12:31.028000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 18:22:32.105000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 18:22:32.105000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-16 18:32:36.175000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-16 18:32:36.175000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
+2023-05-18 00:15:13.771000+08:00 [notice] <0.227.0> Logging: configured log handlers are now ACTIVE
+2023-05-18 00:15:23.335000+08:00 [info] <0.227.0> ra: starting system quorum_queues
+2023-05-18 00:15:23.335000+08:00 [info] <0.227.0> starting Ra system: quorum_queues in directory: c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/quorum/rabbit@ecs-1d22
+2023-05-18 00:15:23.350000+08:00 [info] <0.292.0> ra system 'quorum_queues' running pre init for 0 registered servers
+2023-05-18 00:15:23.350000+08:00 [info] <0.293.0> ra: meta data store initialised for system quorum_queues. 0 record(s) recovered
+2023-05-18 00:15:23.350000+08:00 [notice] <0.301.0> WAL: ra_log_wal init, open tbls: ra_log_open_mem_tables, closed tbls: ra_log_closed_mem_tables
+2023-05-18 00:15:23.397000+08:00 [info] <0.227.0> ra: starting system coordination
+2023-05-18 00:15:23.397000+08:00 [info] <0.227.0> starting Ra system: coordination in directory: c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/coordination/rabbit@ecs-1d22
+2023-05-18 00:15:23.397000+08:00 [info] <0.340.0> ra system 'coordination' running pre init for 0 registered servers
+2023-05-18 00:15:23.397000+08:00 [info] <0.341.0> ra: meta data store initialised for system coordination. 0 record(s) recovered
+2023-05-18 00:15:23.397000+08:00 [notice] <0.349.0> WAL: ra_coordination_log_wal init, open tbls: ra_coordination_log_open_mem_tables, closed tbls: ra_coordination_log_closed_mem_tables
+2023-05-18 00:15:23.460000+08:00 [info] <0.227.0> 
+2023-05-18 00:15:23.460000+08:00 [info] <0.227.0>  Starting RabbitMQ 3.11.13 on Erlang 25.3 [jit]
+2023-05-18 00:15:23.460000+08:00 [info] <0.227.0>  Copyright (c) 2007-2023 VMware, Inc. or its affiliates.
+2023-05-18 00:15:23.460000+08:00 [info] <0.227.0>  Licensed under the MPL 2.0. Website: https://rabbitmq.com
+2023-05-18 00:15:23.460000+08:00 [info] <0.227.0> 
+2023-05-18 00:15:23.460000+08:00 [info] <0.227.0>  node           : rabbit@ecs-1d22
+2023-05-18 00:15:23.460000+08:00 [info] <0.227.0>  home dir       : c:/Windows/system32/config/systemprofile
+2023-05-18 00:15:23.460000+08:00 [info] <0.227.0>  config file(s) : c:/Users/Administrator/AppData/Roaming/RabbitMQ/advanced.config
+2023-05-18 00:15:23.460000+08:00 [info] <0.227.0>  cookie hash    : +Swf7XDUkhwNYvEKwxxS6Q==
+2023-05-18 00:15:23.460000+08:00 [info] <0.227.0>  log(s)         : <stdout>
+2023-05-18 00:15:23.460000+08:00 [info] <0.227.0>                 : c:/Users/Administrator/AppData/Roaming/RabbitMQ/log/rabbit@ecs-1d22.log
+2023-05-18 00:15:23.460000+08:00 [info] <0.227.0>                 : c:/Users/Administrator/AppData/Roaming/RabbitMQ/log/rabbit@ecs-1d22_upgrade.log
+2023-05-18 00:15:23.460000+08:00 [info] <0.227.0>  database dir   : c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia
+2023-05-18 00:15:25.616000+08:00 [info] <0.227.0> Running boot step pre_boot defined by app rabbit
+2023-05-18 00:15:25.616000+08:00 [info] <0.227.0> Running boot step rabbit_global_counters defined by app rabbit
+2023-05-18 00:15:25.616000+08:00 [info] <0.227.0> Running boot step rabbit_osiris_metrics defined by app rabbit
+2023-05-18 00:15:25.616000+08:00 [info] <0.227.0> Running boot step rabbit_core_metrics defined by app rabbit
+2023-05-18 00:15:25.632000+08:00 [info] <0.227.0> Running boot step rabbit_alarm defined by app rabbit
+2023-05-18 00:15:25.632000+08:00 [info] <0.366.0> Memory high watermark set to 13106 MiB (13743523430 bytes) of 32767 MiB (34358808576 bytes) total
+2023-05-18 00:15:25.632000+08:00 [info] <0.368.0> Enabling free disk space monitoring (disk free space: 7851737088, total memory: 34358808576)
+2023-05-18 00:15:25.632000+08:00 [info] <0.368.0> Disk free limit set to 50MB
+2023-05-18 00:15:25.632000+08:00 [info] <0.227.0> Running boot step code_server_cache defined by app rabbit
+2023-05-18 00:15:25.632000+08:00 [info] <0.227.0> Running boot step file_handle_cache defined by app rabbit
+2023-05-18 00:15:25.632000+08:00 [info] <0.371.0> Limiting to approx 65439 file handles (58893 sockets)
+2023-05-18 00:15:25.632000+08:00 [info] <0.372.0> FHC read buffering: OFF
+2023-05-18 00:15:25.632000+08:00 [info] <0.372.0> FHC write buffering: ON
+2023-05-18 00:15:25.647000+08:00 [info] <0.227.0> Running boot step worker_pool defined by app rabbit
+2023-05-18 00:15:25.647000+08:00 [info] <0.353.0> Will use 16 processes for default worker pool
+2023-05-18 00:15:25.647000+08:00 [info] <0.353.0> Starting worker pool 'worker_pool' with 16 processes in it
+2023-05-18 00:15:25.647000+08:00 [info] <0.227.0> Running boot step database defined by app rabbit
+2023-05-18 00:15:25.663000+08:00 [info] <0.227.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2023-05-18 00:15:25.663000+08:00 [info] <0.227.0> Successfully synced tables from a peer
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Waiting for Mnesia tables for 30000 ms, 9 retries left
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Successfully synced tables from a peer
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Peer discovery backend rabbit_peer_discovery_classic_config does not support registration, skipping registration.
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step tracking_metadata_store defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.397.0> Setting up a table for connection tracking on this node: tracked_connection
+2023-05-18 00:15:25.679000+08:00 [info] <0.397.0> Setting up a table for per-vhost connection counting on this node: tracked_connection_per_vhost
+2023-05-18 00:15:25.679000+08:00 [info] <0.397.0> Setting up a table for per-user connection counting on this node: tracked_connection_per_user
+2023-05-18 00:15:25.679000+08:00 [info] <0.397.0> Setting up a table for channel tracking on this node: tracked_channel
+2023-05-18 00:15:25.679000+08:00 [info] <0.397.0> Setting up a table for channel tracking on this node: tracked_channel_per_user
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step networking_metadata_store defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step database_sync defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step feature_flags defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step codec_correctness_check defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step external_infrastructure defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_event defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_delayed_message defined by app rabbitmq_delayed_message_exchange
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Waiting for Mnesia tables for 30000 ms, 0 retries left
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Successfully synced tables from a peer
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_registry defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_auth_mechanism_amqplain defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_auth_mechanism_cr_demo defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_auth_mechanism_plain defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_direct defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_fanout defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_headers defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_topic defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_mode_all defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_mode_exactly defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_mode_nodes defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_priority_queue defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Priority queues enabled, real BQ is rabbit_variable_queue
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_client_local defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_min_masters defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_random defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step kernel_ready defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_sysmon_minder defined by app rabbit
+2023-05-18 00:15:25.679000+08:00 [info] <0.227.0> Running boot step rabbit_epmd_monitor defined by app rabbit
+2023-05-18 00:15:25.695000+08:00 [info] <0.409.0> epmd monitor knows us, inter-node communication (distribution) port: 25672
+2023-05-18 00:15:25.695000+08:00 [info] <0.227.0> Running boot step guid_generator defined by app rabbit
+2023-05-18 00:15:25.695000+08:00 [info] <0.227.0> Running boot step rabbit_node_monitor defined by app rabbit
+2023-05-18 00:15:25.695000+08:00 [info] <0.413.0> Starting rabbit_node_monitor
+2023-05-18 00:15:25.695000+08:00 [info] <0.227.0> Running boot step delegate_sup defined by app rabbit
+2023-05-18 00:15:25.695000+08:00 [info] <0.227.0> Running boot step rabbit_memory_monitor defined by app rabbit
+2023-05-18 00:15:25.695000+08:00 [info] <0.227.0> Running boot step rabbit_fifo_dlx_sup defined by app rabbit
+2023-05-18 00:15:25.695000+08:00 [info] <0.227.0> Running boot step core_initialized defined by app rabbit
+2023-05-18 00:15:25.695000+08:00 [info] <0.227.0> Running boot step upgrade_queues defined by app rabbit
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step channel_tracking defined by app rabbit
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step rabbit_channel_tracking_handler defined by app rabbit
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step connection_tracking defined by app rabbit
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step rabbit_connection_tracking_handler defined by app rabbit
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step rabbit_definitions_hashing defined by app rabbit
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_parameters defined by app rabbit
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step rabbit_mirror_queue_misc defined by app rabbit
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step rabbit_policies defined by app rabbit
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step rabbit_policy defined by app rabbit
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step rabbit_queue_location_validator defined by app rabbit
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step rabbit_quorum_memory_manager defined by app rabbit
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step rabbit_stream_coordinator defined by app rabbit
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step rabbit_vhost_limit defined by app rabbit
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step rabbit_delayed_message_supervisor defined by app rabbitmq_delayed_message_exchange
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step rabbit_exchange_type_delayed_message defined by app rabbitmq_delayed_message_exchange
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step rabbit_mgmt_reset_handler defined by app rabbitmq_management
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step rabbit_mgmt_db_handler defined by app rabbitmq_management_agent
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Management plugin: using rates mode 'basic'
+2023-05-18 00:15:25.710000+08:00 [info] <0.227.0> Running boot step recovery defined by app rabbit
+2023-05-18 00:15:25.710000+08:00 [info] <0.449.0> Making sure data directory 'c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/msg_stores/vhosts/AFUGTMSOWE2T0GDXL2ACC26UI' for vhost 'ManYiChong' exists
+2023-05-18 00:15:25.726000+08:00 [info] <0.449.0> Starting message stores for vhost 'ManYiChong'
+2023-05-18 00:15:25.726000+08:00 [info] <0.454.0> Message store "AFUGTMSOWE2T0GDXL2ACC26UI/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2023-05-18 00:15:25.726000+08:00 [info] <0.449.0> Started message store of type transient for vhost 'ManYiChong'
+2023-05-18 00:15:25.741000+08:00 [info] <0.458.0> Message store "AFUGTMSOWE2T0GDXL2ACC26UI/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2023-05-18 00:15:25.741000+08:00 [warning] <0.458.0> Message store "AFUGTMSOWE2T0GDXL2ACC26UI/msg_store_persistent": rebuilding indices from scratch
+2023-05-18 00:15:25.742000+08:00 [info] <0.449.0> Started message store of type persistent for vhost 'ManYiChong'
+2023-05-18 00:15:25.752000+08:00 [info] <0.449.0> Recovering 2 queues of type rabbit_classic_queue took 37ms
+2023-05-18 00:15:25.752000+08:00 [info] <0.449.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
+2023-05-18 00:15:25.752000+08:00 [info] <0.449.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2023-05-18 00:15:25.752000+08:00 [info] <0.498.0> Making sure data directory 'c:/Users/Administrator/AppData/Roaming/RabbitMQ/db/rabbit@ecs-1d22-mnesia/msg_stores/vhosts/628WB79CIFDYO9LJI6DKMI09L' for vhost '/' exists
+2023-05-18 00:15:25.768000+08:00 [info] <0.498.0> Starting message stores for vhost '/'
+2023-05-18 00:15:25.768000+08:00 [info] <0.502.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_transient": using rabbit_msg_store_ets_index to provide index
+2023-05-18 00:15:25.768000+08:00 [info] <0.498.0> Started message store of type transient for vhost '/'
+2023-05-18 00:15:25.768000+08:00 [info] <0.506.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": using rabbit_msg_store_ets_index to provide index
+2023-05-18 00:15:25.768000+08:00 [warning] <0.506.0> Message store "628WB79CIFDYO9LJI6DKMI09L/msg_store_persistent": rebuilding indices from scratch
+2023-05-18 00:15:25.768000+08:00 [info] <0.498.0> Started message store of type persistent for vhost '/'
+2023-05-18 00:15:25.768000+08:00 [info] <0.498.0> Recovering 0 queues of type rabbit_classic_queue took 12ms
+2023-05-18 00:15:25.768000+08:00 [info] <0.498.0> Recovering 0 queues of type rabbit_quorum_queue took 0ms
+2023-05-18 00:15:25.768000+08:00 [info] <0.498.0> Recovering 0 queues of type rabbit_stream_queue took 0ms
+2023-05-18 00:15:25.768000+08:00 [info] <0.227.0> Running boot step empty_db_check defined by app rabbit
+2023-05-18 00:15:25.768000+08:00 [info] <0.227.0> Will not seed default virtual host and user: have definitions to load...
+2023-05-18 00:15:25.768000+08:00 [info] <0.227.0> Running boot step rabbit_observer_cli defined by app rabbit
+2023-05-18 00:15:25.768000+08:00 [info] <0.227.0> Running boot step rabbit_looking_glass defined by app rabbit
+2023-05-18 00:15:25.768000+08:00 [info] <0.227.0> Running boot step rabbit_core_metrics_gc defined by app rabbit
+2023-05-18 00:15:25.768000+08:00 [info] <0.227.0> Running boot step background_gc defined by app rabbit
+2023-05-18 00:15:25.768000+08:00 [info] <0.227.0> Running boot step routing_ready defined by app rabbit
+2023-05-18 00:15:25.768000+08:00 [info] <0.227.0> Running boot step pre_flight defined by app rabbit
+2023-05-18 00:15:25.768000+08:00 [info] <0.227.0> Running boot step notify_cluster defined by app rabbit
+2023-05-18 00:15:25.768000+08:00 [info] <0.227.0> Running boot step networking defined by app rabbit
+2023-05-18 00:15:25.768000+08:00 [info] <0.227.0> Running boot step definition_import_worker_pool defined by app rabbit
+2023-05-18 00:15:25.768000+08:00 [info] <0.353.0> Starting worker pool 'definition_import_pool' with 16 processes in it
+2023-05-18 00:15:25.768000+08:00 [info] <0.227.0> Running boot step cluster_name defined by app rabbit
+2023-05-18 00:15:25.768000+08:00 [info] <0.227.0> Running boot step direct_client defined by app rabbit
+2023-05-18 00:15:25.768000+08:00 [info] <0.227.0> Running boot step rabbit_maintenance_mode_state defined by app rabbit
+2023-05-18 00:15:25.768000+08:00 [info] <0.227.0> Creating table rabbit_node_maintenance_states for maintenance mode status
+2023-05-18 00:15:25.768000+08:00 [info] <0.227.0> Running boot step rabbit_management_load_definitions defined by app rabbitmq_management
+2023-05-18 00:15:25.768000+08:00 [info] <0.556.0> Resetting node maintenance status
+2023-05-18 00:15:26.801000+08:00 [info] <0.615.0> Management plugin: HTTP (non-TLS) listener started on port 15672
+2023-05-18 00:15:26.801000+08:00 [info] <0.643.0> Statistics database started.
+2023-05-18 00:15:26.801000+08:00 [info] <0.642.0> Starting worker pool 'management_worker_pool' with 3 processes in it
+2023-05-18 00:15:26.816000+08:00 [info] <0.556.0> Ready to start client connection listeners
+2023-05-18 00:15:26.816000+08:00 [info] <0.671.0> started TCP listener on [::]:5672
+2023-05-18 00:15:26.816000+08:00 [info] <0.689.0> started TCP listener on 0.0.0.0:5672
+2023-05-18 00:15:27.077000+08:00 [info] <0.556.0> Server startup complete; 4 plugins started.
+2023-05-18 00:15:27.077000+08:00 [info] <0.556.0>  * rabbitmq_delayed_message_exchange
+2023-05-18 00:15:27.077000+08:00 [info] <0.556.0>  * rabbitmq_management
+2023-05-18 00:15:27.077000+08:00 [info] <0.556.0>  * rabbitmq_web_dispatch
+2023-05-18 00:15:27.077000+08:00 [info] <0.556.0>  * rabbitmq_management_agent
+2023-05-18 00:15:27.218000+08:00 [info] <0.692.0> accepting AMQP connection <0.692.0> ([::1]:63001 -> [::1]:5672)
+2023-05-18 00:15:27.218000+08:00 [info] <0.692.0> connection <0.692.0> ([::1]:63001 -> [::1]:5672): user 'guest' authenticated and granted access to vhost 'ManYiChong'
+2023-05-19 00:16:16.619000+08:00 [warning] <0.563.0> Could not execute handle.exe, using powershell to determine handle count
+2023-05-19 00:16:16.651000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-19 00:16:16.651000+08:00 [error] <0.563.0>                                                   {error,
+2023-05-19 00:16:16.651000+08:00 [error] <0.563.0>                                                    {exit_status,-65536}}}
+2023-05-19 09:01:57.564000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,{error,timeout}}
+2023-05-19 09:12:01.749000+08:00 [error] <0.563.0> Could not infer the number of file handles used: {badmatch,
+2023-05-19 09:12:01.749000+08:00 [error] <0.563.0>                                                   {error,{exit_status,1}}}
