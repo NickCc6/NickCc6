@@ -1,0 +1,18 @@
++ <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="ErlSrv" /> 
+  <EventID Qualifiers="49152">17</EventID> 
+  <Level>2</Level> 
+  <Task>0</Task> 
+  <Keywords>0x80000000000000</Keywords> 
+  <TimeCreated SystemTime="2023-05-19T01:12:21.029805200Z" /> 
+  <EventRecordID>306172</EventRecordID> 
+  <Channel>System</Channel> 
+  <Computer>ecs-1d22</Computer> 
+  <Security /> 
+  </System>
+- <EventData>
+  <Data>RabbitMQ</Data> 
+  <Data>Erlang machine seems to die continuously, not restarted.</Data> 
+  </EventData>
+  </Event>
